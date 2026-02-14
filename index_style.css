@@ -1,0 +1,16 @@
+/* Make all text inside the main content dark blue */
+#hero-heading {
+  color: darkblue;
+}
+
+/* Optional: Ensure links and other elements also use dark blue */
+#hero-heading a {
+  color: darkblue;
+}
+
+/* Optional: Override specific heading colors */
+#hero-heading h1,
+#hero-heading h2,
+#hero-heading h3 {
+  color: darkblue;
+}

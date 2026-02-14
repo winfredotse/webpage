@@ -1,0 +1,23 @@
+---
+title: "Blog"
+listing:
+  id: sample-listings
+  contents: posts
+  sort: "date desc"
+  type: grid
+  categories: true
+---
+
+You can review the following documents for additional information:
+
+::: {#sample-listings}
+my listing
+:::
+
+<div>
+
+my listing 2
+
+</div>
+
+Learn more about Quarto [here](https://www.quarto.com).

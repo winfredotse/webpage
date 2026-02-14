@@ -1,0 +1,21 @@
+---
+title: "Teaching, Knowledge Exchange and Health Systems Strengthening"
+---
+
+![](images/teaching.jpg){fig-align="center"}
+
+::: callout-note
+## Teaching Testimonial
+
+“*Winfred has been an invaluable co-lead for our module for the last two years. His input has both broadened and deepened the content of the module, bringing unique insights from his work in Ghana, enriching the teaching by directly bringing his research into the education context. He teaches clearly and engages the students very effectively”.*
+:::
+
+My commitment is to helping students and healthcare professionals build strong analytical, spatial, and conceptual skills, and to mentoring emerging researchers in health and geographical sciences.
+
+I have extensive experience in university teaching, spanning undergraduate and postgraduate levels. My roles have included module leadership, curriculum design, delivery of lectures and seminars, developing GIS practicals, designing authentic assessments, providing feedback, and coordinating teaching and learning activities. I have also supervised MSc students in GIS, Remote Sensing, and Applied Statistics.
+
+I have delivered a range of knowledge exchange and capacity-building trainings across Africa and the UK, focusing on socio-economic and geospatial equity in health. These include hands-on workshops in Stata, R, and QGIS for the analysis of routine health and complex survey data, with audiences ranging from small research fellow cohorts to large international conference attendees. Notable trainings include sessions on equity analysis in immunisation and maternal and child health in Côte d’Ivoire and Rwanda, analytical research trainings for Countdown research fellows in Senegal, Kenya, and Rwanda, and spatial analysis workshops in Ghana.
+
+My teaching spans geography, spatial data science, and public health, reflecting the interdisciplinary nature of my academic work. In my current role at UCL, I teach Spatial Data Analysis and Foundations of Geography, where I support students in developing strong spatial analytical foundations and an understanding of core geographical concepts and methods.
+
+Between 2019 and 2025, during my time at the University of Southampton, I taught across a broad range of undergraduate and postgraduate modules in GIS, global health, and population health. These included master’s-level modules such as Core Skills in GIS and Health Services Organisation and Evaluation, the latter of which I co-led. I also contributed to foundational and advanced GIS teaching, including Introductory GIS, Advanced GIS, and GIS for Health Analysis, providing students with both technical competence and applied analytical skills. I also contributed to public health teaching in global and population health, Reproductive Health, Global Public Health, and Practicing Human Geographical Research. In addition to classroom teaching, I have supervised master’s-level and undergraduate dissertations across applied quantitative and geospatial fields. I am currently supervising two PhD students.

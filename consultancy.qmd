@@ -1,0 +1,23 @@
+---
+title: "Consultancy"
+---
+
+I provide analytical, spatial, and research expertise to support evidence-based decision-making in public health, humanitarian, and development contexts. My consultancy work focuses on data management, geographic analysis, impact evaluation, and technical research support.
+
+**Key areas of experience include:**
+
+-   **Data management:** Designing and implementing systems to improve data quality and streamline workflows.
+
+-   **Conflict and displacement analysis:** Assessing patterns of child displacement using spatial and statistical methods.
+
+-   **GIS training:** Delivering practical GIS training to build organisational capacity.
+
+-   **Impact evaluations:** Supporting programme assessments and evidence of effectiveness.
+
+-   **Geographic accessibility modelling:** Analysing service access and coverage using spatial modelling.
+
+-   **Technical report writing:** Producing clear, actionable reports for programmes and policy.
+
+-   **Survey data collection:** Designing instruments, managing fieldwork, and ensuring high-quality data.
+
+Across all projects, I apply a combination of GIS, quantitative analysis, and applied research skills to generate insights that inform planning, operations, and strategic decisions.

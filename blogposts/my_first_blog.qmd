@@ -1,0 +1,13 @@
+---
+title: "Delineating catchments"
+author: "WWDG"
+date: "2026-10-13"
+---
+
+# Health facility catchment
+
+-   Maternal mortality
+
+-   This is a good catchment
+
+![](images/clipboard-237564681.png)

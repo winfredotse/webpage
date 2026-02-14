@@ -1,0 +1,6 @@
+---
+title: "Contact"
+format: html
+---
+
+You can reach out to me by filling out [this form](https://forms.gle/RjA6aLHMJ35ZZJdr5).
