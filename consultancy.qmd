@@ -1,23 +1,34 @@
 ---
 title: "Consultancy"
+format:
+  html:
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 ---
 
 I provide analytical, spatial, and research expertise to support evidence-based decision-making in public health, humanitarian, and development contexts. My consultancy work focuses on data management, geographic analysis, impact evaluation, and technical research support.
 
+::: callout-important
+-   **Upskilling teams in geospatial analysis**
+
+-   **Designing and conducting quantitative or mixed methods research**
+
+-   **Data analysis for research and public health projects**
+
+-   **Developing interactive dashboards to communicate research findings or other forms of data**
+:::
+
 **Key areas of experience include:**
 
--   **Data management:** Designing and implementing systems to improve data quality and streamline workflows.
+<i class="fa-solid fa-file-csv fa-2x"></i> **Data management:** Designing and implementing systems to improve data quality and streamline workflows.
 
--   **Conflict and displacement analysis:** Assessing patterns of child displacement using spatial and statistical methods.
+<i class="fa-solid fa-location-dot fa-2x"></i> **GIS training:** Delivering practical GIS training to build organisational capacity.
 
--   **GIS training:** Delivering practical GIS training to build organisational capacity.
+<i class="fa-solid fa-magnifying-glass-chart fa-2x"></i> **Impact evaluations:** Supporting programme assessments and evidence of effectiveness.
 
--   **Impact evaluations:** Supporting programme assessments and evidence of effectiveness.
+<i class="fa-solid fa-bicycle fa-2x"></i> **Geographic accessibility modelling:** Analysing service access and coverage using spatial modelling.
 
--   **Geographic accessibility modelling:** Analysing service access and coverage using spatial modelling.
+<i class="fa-solid fa-file-pdf fa-2x"></i> **Technical report writing:** Producing clear, actionable reports for programmes and policy.
 
--   **Technical report writing:** Producing clear, actionable reports for programmes and policy.
-
--   **Survey data collection:** Designing instruments, managing fieldwork, and ensuring high-quality data.
-
-Across all projects, I apply a combination of GIS, quantitative analysis, and applied research skills to generate insights that inform planning, operations, and strategic decisions.
+<i class="fa-solid fa-laptop-file fa-2x"></i> **Survey data collection:** Designing instruments, managing fieldwork, and ensuring high-quality data.

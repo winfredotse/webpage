@@ -17,32 +17,14 @@ format:
     css: index_style.css
 ---
 
-### **Welcome!**
+### Generating actionable insights for decisions to improve health
 
 ::: {#hero-heading}
-I'm a multidisciplinary academic specialising in **spatial epidemiology** at [**University College London**](https://profiles.ucl.ac.uk/104586-winfred-dotsegborgbortsi/about), with over 15 years of experience in **public health intelligence and research**.
+I'm a multidisciplinary academic specialising in spatial epidemiology at [University College London](https://profiles.ucl.ac.uk/104586-winfred-dotsegborgbortsi/about), with over 15 years of experience in public health intelligence and research.
 
-My career spans both academia and practice. I’ve held a **Senior Research Fellowship** with the [**WorldPop Research Group**](https://www.worldpop.org/about/) at the University of Southampton, and previously worked with the **Ghana Health Service** as a Public Health Officer. I also led monitoring and evaluation at **Good Neighbors Ghana**.
+My career spans both academia and public health practice. I’ve held a Senior Research Fellowship with the [WorldPop Research Group](https://www.worldpop.org/about/) at the University of Southampton, and previously worked with the Ghana Health Service as a Public Health Officer. I also led monitoring and evaluation at Good Neighbors Ghana.
 
 My work focuses on using data and spatial analysis to inform public health decisions and policy.
-
-Feel free to explore my research, publications, and ongoing projects.
 :::
 
-### Consultancy Services
-
-::: callout-important
-In addition to my academic work, I offer consultancy services to support organizations in:
-
--   **Upskilling teams in geospatial analysis**
-
--   **Designing and conducting quantitative or mixed methods research**
-
--   **Data analysis for research and public health projects**
-
--   **Developing interactive dashboards to communicate research findings and other information**
-
-If you're interested in collaborating or learning more, feel free to get in touch
-
-Email: winfredotse\@outlook.com
-:::
+### 

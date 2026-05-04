@@ -1,0 +1,25 @@
+---
+title: "A Refreshed Webpage"
+format:
+  html:
+    theme: cosmo
+    css: index_style.css
+---
+
+![](images/clipboard-697788487.png)
+
+I created my first website with R during my PhD at the University of Southampton, where I researched spatial epidemiology an ESRC South Coast DTP scholar. While that page is still online, a lot has changed since then. I have graduated, got promoted to a senior research fellow and moved on from my role at Southampton, and grown considerably as a researcher and practitioner. I am now a lecturer in geographies of health at the University College London. A refresh is long overdue.
+
+I don't want my webpage to be like those academic profile photos that look suspiciously young, only for visitors to meet the person in real life and realise just how much time has passed. This new site is a more honest reflection of where I am now: a spatial epidemiologist with a deep interest in using geospatial tools to tackle real-world public health challenges.
+
+My journey has taken me from practicing as a public health officer with the Ghana Health Service, to leading monitoring and evaluation for an international NGO, to publishing peer-reviewed research on geographic disparities in health access across low- and middle-income countries. All of that experience shapes how I think about data, place, and health, and it is what I hope to bring to this space.
+
+One thing I consistently failed to do on the old site was write blog posts. I promise to do better this time. I will be sharing my thoughts on all things public health and geographic data science, from opinions on contemporary public health issues to practical approaches to spatial data analysis, particularly for public health intelligence. If you have ever wondered how maps and machine learning can help answer questions about maternal health, hygiene access, or health inequalities, you are in the right place.
+
+<div>
+
+## Welcome — *Woezor!*
+
+So, keep calm, grab your coffee, and enjoy the posts. I am glad you are here.
+
+</div>
