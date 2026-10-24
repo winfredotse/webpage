@@ -19,6 +19,7 @@ My teaching integrates geography, spatial data science, and public health. I emp
 ```{=html}
 <ul class="courses">
   <li><span class="code">GEOG0194</span><div><strong>Health GIS</strong><div class="c-d">Mapping and spatial analysis for health questions.</div></div></li>
+  <li><span class="code">GEOG0195</span><div><strong>Geography and Health</strong><div class="c-d">How place shapes health and access to care. Students write a policy brief as their final coursework.</div></div></li>
   <li><span class="code">POLS0010</span><div><strong>Data Analysis</strong><div class="c-d">Lectures on quantitative data analysis.</div></div></li>
 </ul>
 ```

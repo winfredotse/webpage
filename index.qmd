@@ -64,11 +64,11 @@ I am a spatial epidemiologist with over 15 years in public health intelligence a
 ## Research themes
 
 ```{=html}
-<div class="themes">
-  <div class="theme"><p class="theme-h" role="heading" aria-level="3">Access to care <span class="tag">travel time</span></p><p>How far people live from care, and how distance and quality shape whether they use it.</p></div>
-  <div class="theme"><p class="theme-h" role="heading" aria-level="3">Maternal and child health <span class="tag">EmONC</span></p><p>Where women give birth, who misses care, and how to bring quality services closer.</p></div>
-  <div class="theme"><p class="theme-h" role="heading" aria-level="3">Climate and health <span class="tag">flooding</span></p><p>How floods and other climate shocks disrupt health services and health outcomes.</p></div>
-  <div class="theme"><p class="theme-h" role="heading" aria-level="3">Routine health data <span class="tag">DHIMS</span></p><p>Turning data that health systems already collect into evidence for planning.</p></div>
+<div class="topic-grid">
+  <div class="topic"><p class="topic-h" role="heading" aria-level="3">Access to care <span class="tag-o">travel time</span></p><p>How far people live from care, and how distance and quality shape whether they use it.</p></div>
+  <div class="topic"><p class="topic-h" role="heading" aria-level="3">Maternal and child health <span class="tag-o">EmONC</span></p><p>Where women give birth, who misses care, and how to bring quality services closer.</p></div>
+  <div class="topic"><p class="topic-h" role="heading" aria-level="3">Climate and health <span class="tag-o">flooding</span></p><p>How floods and other climate shocks disrupt health services and health outcomes.</p></div>
+  <div class="topic"><p class="topic-h" role="heading" aria-level="3">Routine health data <span class="tag-o">DHIMS</span></p><p>Turning data that health systems already collect into evidence for planning.</p></div>
 </div>
 ```
 

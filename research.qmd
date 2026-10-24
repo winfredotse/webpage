@@ -17,28 +17,22 @@ My work is grounded in the belief that better data leads to better health outcom
 My research sits at the crossroads of geographic data science and public health, with a particular interest in how location and distribution of quality health services influence health outcomes. I focus on:
 
 ```{=html}
-<ul class="focus">
-  <li><i class="fa-solid fa-car-side" aria-hidden="true"></i>Healthcare accessibility and utilisation</li>
-  <li><i class="fa-solid fa-hands-holding-child" aria-hidden="true"></i>Maternal, newborn and child health</li>
-  <li><i class="fa-solid fa-route" aria-hidden="true"></i>Spatial health inequalities</li>
-  <li><i class="fa-solid fa-hospital-user" aria-hidden="true"></i>Routine health data systems</li>
-  <li><i class="fa-solid fa-bacteria" aria-hidden="true"></i>Spatial epidemiology and disease mapping</li>
-</ul>
+<div class="topic-grid">
+  <div class="topic"><p class="topic-h" role="heading" aria-level="3">Healthcare accessibility and utilisation<span class="tag-o">travel time</span></p><p>How far people live from care, and how distance and quality shape whether they use it.</p></div>
+  <div class="topic"><p class="topic-h" role="heading" aria-level="3">Maternal, newborn and child health<span class="tag-o">EmONC</span></p><p>Where women give birth, who misses care, and how to bring quality services closer.</p></div>
+  <div class="topic"><p class="topic-h" role="heading" aria-level="3">Spatial health inequalities<span class="tag-o">equity</span></p><p>Where health and health services differ across places, and who gets left behind.</p></div>
+  <div class="topic"><p class="topic-h" role="heading" aria-level="3">Routine health data systems<span class="tag-o">DHIMS</span></p><p>Turning data health systems already collect into evidence for planning.</p></div>
+  <div class="topic"><p class="topic-h" role="heading" aria-level="3">Spatial epidemiology and disease mapping<span class="tag-o">mapping</span></p><p>Mapping where disease occurs to show where risk is highest and where to act.</p></div>
+</div>
 ```
 
 ## Current projects
 
 ```{=html}
-<div class="projects">
-  <div class="project">
-    <div class="p-side"><img src="images/clipboard-373368731.png" alt="Countdown to 2030 logo"></div>
-    <div><h3><a href="https://www.countdown2030.org/">Countdown to 2030</a></h3>
-    <p>A multi-country effort working with health ministries and academic partners across more than 26 African nations. We use routine health facility data to track progress towards key health-related Sustainable Development Goals (SDGs).</p></div>
-  </div>
-  <div class="project">
-    <div class="p-side">UKRI, Co-Investigator</div>
-    <div><h3><a href="https://gtr.ukri.org/projects?ref=MR%2FZ505316%2F1">CONTAIN Project</a></h3>
-    <p>I work alongside a cross-disciplinary team exploring new ways to understand and manage the spread of infectious diseases through spatial and social analysis.</p></div>
+<div class="cards">
+  <div class="card-x"><span class="status">Multi-country partnership</span><p class="card-h" role="heading" aria-level="3"><a href="https://www.countdown2030.org/">Countdown to 2030</a></p><p>A multi-country effort working with health ministries and academic partners across more than 26 African nations. We use routine health facility data to track progress towards key health-related Sustainable Development Goals (SDGs).</p></div>
+  <div class="card-x"><span class="status">Co-Investigator, UKRI</span><p class="card-h" role="heading" aria-level="3"><a href="https://gtr.ukri.org/projects?ref=MR%2FZ505316%2F1">CONTAIN Project</a></p><p>I work alongside a cross-disciplinary team exploring new ways to understand and manage the spread of infectious diseases through spatial and social analysis.</p></div>
+</div>
 ```
 
 ## Collaborations and impact

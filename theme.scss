@@ -34,5 +34,6 @@ $footer-fg: #5B6E73;
   --ink: #{$ink}; --text: #{$text}; --paper: #{$paper};
   --band-1: #{$band-1}; --band-2: #{$band-2}; --band-3: #{$band-3};
   --ochre: #{$ochre}; --rule: #{$rule}; --muted: #5B6E73;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
   --sans: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
