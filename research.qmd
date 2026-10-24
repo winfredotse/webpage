@@ -39,23 +39,11 @@ My research sits at the crossroads of geographic data science and public health,
     <div class="p-side">UKRI, Co-Investigator</div>
     <div><h3><a href="https://gtr.ukri.org/projects?ref=MR%2FZ505316%2F1">CONTAIN Project</a></h3>
     <p>I work alongside a cross-disciplinary team exploring new ways to understand and manage the spread of infectious diseases through spatial and social analysis.</p></div>
-  </div>
-  <div class="project">
-    <div class="p-side">UCL Geography, Lead</div>
-    <div><h3>Geographies of Health research cluster</h3>
-    <p>A new cluster bringing together work on place, access and health inequalities.</p></div>
-  </div>
-  <div class="project">
-    <div class="p-side">In development</div>
-    <div><h3>FIND Study</h3>
-    <p>Finding mother and child pairs who have dropped out of maternal and child health services in Ghana and Nigeria, so services can reach them again.</p></div>
-  </div>
-</div>
 ```
 
 ## Collaborations and impact
 
-I regularly collaborate with government health agencies, NGOs, and international partners to turn research into real-world solutions. My work has informed health strategies across low- and middle-income countries, particularly in sub-Saharan Africa. My PhD, funded by the ESRC, was [recognised nationally](https://www.ukri.org/who-we-are/how-we-are-doing/research-outcomes-and-impact/esrc/improving-access-to-pregnancy-and-birth-services-in-ghana/) and [locally](https://southcoastdtp.ac.uk/news-post/the-scdtp-is-delighted-to-announce-the-winners-of-the-2020-21-and-2021-22-scdtp-impact-prizes-congratulations-to-all-winners/) for its impact on evidence-based policymaking and capacity development in Ghana.
+I regularly collaborate with government health agencies, NGOs, and international partners to turn research into real-world solutions. My work has informed health strategies across low- and middle-income countries, particularly in sub-Saharan Africa. My PhD, funded by the ESRC, was [recognised nationally](https://webarchive.nationalarchives.gov.uk/ukgwa/20260702125540/https://www.ukri.org/who-we-are/how-we-are-doing/research-outcomes-and-impact/esrc/improving-access-to-pregnancy-and-birth-services-in-ghana/) and [locally](https://southcoastdtp.ac.uk/news-post/the-scdtp-is-delighted-to-announce-the-winners-of-the-2020-21-and-2021-22-scdtp-impact-prizes-congratulations-to-all-winners/) for its impact on evidence-based policymaking and capacity development in Ghana.
 
 The ESRC produced this video about my research impact in Ghana.
 

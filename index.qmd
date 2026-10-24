@@ -14,8 +14,7 @@ listing:
   filter-ui: false
 ---
 
-:::::: {.home}
-
+:::::::: home
 ```{=html}
 <section class="hero">
   <div class="hero-text">
@@ -42,17 +41,15 @@ listing:
 </section>
 ```
 
-::::: {.home-body}
-
-:::: {.home-intro}
+::::: home-body
+::: home-intro
 ## About
 
 I am a spatial epidemiologist with over 15 years in public health intelligence and research. I use maps, travel-time models and routine health data to find gaps in access to care, especially for mothers and children.
 
-- Lecturer in Geographies of Health at UCL's Department of Geography.
-- Lead of the UCL Geographies of Health research cluster.
-- Former Senior Research Fellow with WorldPop, University of Southampton.
-- Public Health Officer with the Ghana Health Service, then monitoring and evaluation lead at Good Neighbors Ghana.
+-   Lecturer in Geographies of Health at UCL's Department of Geography.
+-   Visiting Senior Research Fellow with WorldPop, University of Southampton.
+-   Public Health Officer with the Ghana Health Service, then monitoring and evaluation lead at Good Neighbors Ghana.
 
 ```{=html}
 <dl class="facts">
@@ -60,9 +57,10 @@ I am a spatial epidemiologist with over 15 years in public health intelligence a
   <dt>Recognition</dt><dd>ESRC Celebrating Impact Prize 2022, runner-up for Early Career Impact</dd>
 </dl>
 ```
-::::
+:::
 
-:::: {}
+<div>
+
 ## Research themes
 
 ```{=html}
@@ -73,20 +71,19 @@ I am a spatial epidemiologist with over 15 years in public health intelligence a
   <div class="theme"><p class="theme-h" role="heading" aria-level="3">Routine health data <span class="tag">DHIMS</span></p><p>Turning data that health systems already collect into evidence for planning.</p></div>
 </div>
 ```
-::::
 
+</div>
 :::::
 
-::::: {.home-recent}
+:::: home-recent
 ## Recent publications
 
 ::: {#recent}
 :::
 
 [All publications](research.qmd#publications){.allpubs}
-:::::
-
-::::::
+::::
+::::::::
 
 ```{=html}
 <script>
