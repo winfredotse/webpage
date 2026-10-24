@@ -1,14 +1,11 @@
 ---
 title: "A Refreshed Webpage"
-format:
-  html:
-    theme: cosmo
-    css: index_style.css
+date: 2026-05-04
 ---
 
-![](images/clipboard-697788487.png)
+![](images/refresh-banner.jpg){fig-alt="A forested hill with rocky cliffs rising behind a single-storey building."}
 
-I created my first website with R during my PhD at the University of Southampton, where I researched spatial epidemiology an ESRC South Coast DTP scholar. While that page is still online, a lot has changed since then. I have graduated, got promoted to a senior research fellow and moved on from my role at Southampton, and grown considerably as a researcher and practitioner. I am now a lecturer in geographies of health at the University College London. A refresh is long overdue.
+I created my first website with R during my PhD at the University of Southampton, where I researched spatial epidemiology as an ESRC South Coast DTP scholar. While that page is still online, a lot has changed since then. I have graduated, got promoted to a senior research fellow and moved on from my role at Southampton, and grown considerably as a researcher and practitioner. I am now a lecturer in geographies of health at the University College London. A refresh is long overdue.
 
 I don't want my webpage to be like those academic profile photos that look suspiciously young, only for visitors to meet the person in real life and realise just how much time has passed. This new site is a more honest reflection of where I am now: a spatial epidemiologist with a deep interest in using geospatial tools to tackle real-world public health challenges.
 

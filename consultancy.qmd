@@ -1,34 +1,32 @@
 ---
 title: "Consultancy"
-format:
-  html:
-    include-in-header:
-      text: |
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+toc: false
 ---
 
 I provide analytical, spatial, and research expertise to support evidence-based decision-making in public health, humanitarian, and development contexts. My consultancy work focuses on data management, geographic analysis, impact evaluation, and technical research support.
 
-::: callout-important
--   **Upskilling teams in geospatial analysis**
+## How I can help
 
--   **Designing and conducting quantitative or mixed methods research**
+```{=html}
+<ul class="services">
+  <li>Upskilling teams in geospatial analysis</li>
+  <li>Designing and conducting quantitative or mixed methods research</li>
+  <li>Data analysis for research and public health projects</li>
+  <li>Building interactive dashboards to communicate research findings and other data</li>
+</ul>
+```
 
--   **Data analysis for research and public health projects**
+## Areas of experience
 
--   **Developing interactive dashboards to communicate research findings or other forms of data**
-:::
+```{=html}
+<div class="areas">
+  <div class="area"><i class="fa-solid fa-file-csv" aria-hidden="true"></i><div><h3>Data management</h3><p>Designing and implementing systems to improve data quality and streamline workflows.</p></div></div>
+  <div class="area"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><div><h3>GIS training</h3><p>Delivering practical GIS training to build organisational capacity.</p></div></div>
+  <div class="area"><i class="fa-solid fa-magnifying-glass-chart" aria-hidden="true"></i><div><h3>Impact evaluations</h3><p>Supporting programme assessments and evidence of effectiveness.</p></div></div>
+  <div class="area"><i class="fa-solid fa-route" aria-hidden="true"></i><div><h3>Geographic accessibility modelling</h3><p>Analysing service access and coverage using spatial modelling.</p></div></div>
+  <div class="area"><i class="fa-solid fa-file-lines" aria-hidden="true"></i><div><h3>Technical report writing</h3><p>Producing clear, actionable reports for programmes and policy.</p></div></div>
+  <div class="area"><i class="fa-solid fa-clipboard-list" aria-hidden="true"></i><div><h3>Survey data collection</h3><p>Designing instruments, managing fieldwork, and ensuring high-quality data.</p></div></div>
+</div>
+```
 
-**Key areas of experience include:**
-
-<i class="fa-solid fa-file-csv fa-2x"></i> **Data management:** Designing and implementing systems to improve data quality and streamline workflows.
-
-<i class="fa-solid fa-location-dot fa-2x"></i> **GIS training:** Delivering practical GIS training to build organisational capacity.
-
-<i class="fa-solid fa-magnifying-glass-chart fa-2x"></i> **Impact evaluations:** Supporting programme assessments and evidence of effectiveness.
-
-<i class="fa-solid fa-bicycle fa-2x"></i> **Geographic accessibility modelling:** Analysing service access and coverage using spatial modelling.
-
-<i class="fa-solid fa-file-pdf fa-2x"></i> **Technical report writing:** Producing clear, actionable reports for programmes and policy.
-
-<i class="fa-solid fa-laptop-file fa-2x"></i> **Survey data collection:** Designing instruments, managing fieldwork, and ensuring high-quality data.
+To discuss a project, [get in touch](contact.qmd).

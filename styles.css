@@ -1,1 +1,180 @@
-/* css styles */
+/* ============ Base ============ */
+body { font-feature-settings: "kern", "liga"; text-rendering: optimizeLegibility; }
+main p, main li { max-width: 68ch; }
+main .quarto-figure p, main figure p { max-width: none; }
+
+h1, h2, h3, h4, .navbar, .nav-footer, .sidebar, #TOC, .listing-title, .quarto-title-meta-heading,
+.quarto-title-meta-contents, .pub-year, .pub-meta, .pub-tag, .filters button, .btn-link {
+  font-family: var(--sans);
+}
+h1, .h1 { letter-spacing: -0.02em; }
+h2, .h2 { font-size: 1.55rem; margin-top: 3rem; margin-bottom: 1rem; border-bottom: 0 !important; padding-bottom: 0; letter-spacing: -0.01em; }
+h3, .h3 { font-size: 1.15rem; margin-top: 1.75rem; }
+
+a { text-underline-offset: 0.18em; text-decoration-thickness: 1px; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 3px solid var(--ochre); outline-offset: 2px; border-radius: 2px; }
+
+/* Page titles */
+.quarto-title .title { font-size: clamp(2rem, 4.2vw, 2.9rem); font-weight: 750; color: var(--ink); line-height: 1.1; }
+#title-block-header { margin-bottom: 1.5rem; }
+
+/* Navbar: quiet, paper background, thin rule */
+.navbar { border-bottom: 1px solid var(--rule); box-shadow: none; padding-top: .55rem; padding-bottom: .55rem; }
+.navbar-brand .navbar-title { font-weight: 700; letter-spacing: -0.01em; color: var(--ink); }
+.navbar .nav-link { font-weight: 500; color: var(--ink); }
+.navbar .nav-link.active { color: var(--band-1) !important; box-shadow: inset 0 -2px 0 var(--band-1); }
+.navbar .nav-link:hover { color: var(--band-1); }
+
+/* Footer */
+.nav-footer { border-top: 1px solid var(--rule); font-size: .85rem; }
+
+/* Figures */
+.quarto-figure img, main img.img-fluid { border-radius: 4px; }
+
+/* Callouts: plain left rule, no box */
+.callout { border: 0 !important; border-left: 3px solid var(--band-1) !important; background: transparent !important; box-shadow: none !important; padding-left: 1rem; }
+.callout .callout-header { display: none; }
+
+/* ============ Home ============ */
+.page-layout-full main.content { padding-top: 0; }
+.home { max-width: 1120px; margin: 0 auto; padding: 0 1rem; }
+
+.hero {
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); gap: clamp(1.5rem, 4vw, 3.5rem);
+  align-items: center; padding: clamp(2rem, 6vw, 4.5rem) 0 clamp(2rem, 5vw, 3.5rem);
+}
+.hero-name {
+  font-family: var(--sans); font-weight: 800; color: var(--ink);
+  font-size: clamp(2.1rem, 4.3vw, 3.55rem); line-height: 1; letter-spacing: -0.035em; margin: 0 0 1.25rem;
+}
+.hero-name .nb { white-space: nowrap; }
+.hero-role { font-family: var(--sans); font-size: 1rem; color: var(--muted); margin: 0 0 1.5rem; line-height: 1.45; }
+.hero-thesis { font-size: clamp(1.25rem, 2.2vw, 1.55rem); line-height: 1.4; color: var(--text); max-width: 26ch; margin: 0 0 1.75rem; }
+.hero-links { display: flex; flex-wrap: wrap; gap: .5rem; list-style: none; padding: 0; margin: 0; }
+.hero-links a {
+  display: inline-flex; align-items: center; gap: .45rem; font-family: var(--sans); font-size: .9rem; font-weight: 500;
+  padding: .4rem .8rem; border: 1px solid var(--rule); border-radius: 4px; color: var(--ink); text-decoration: none; background: #fff;
+}
+.hero-links a:hover { border-color: var(--band-1); color: var(--band-1); }
+
+.hero-map { margin: 0; }
+.hero-map canvas { display: block; width: 100%; aspect-ratio: 3 / 2; border-radius: 6px; background: #EAF0EE; }
+.hero-map figcaption { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem 1.1rem; margin-top: .7rem; font-family: var(--sans); font-size: .8rem; color: var(--muted); }
+.hero-map .key { display: inline-flex; align-items: center; gap: .4rem; }
+.hero-map .swatch { width: .85rem; height: .85rem; border-radius: 2px; display: inline-block; }
+.hero-map .tri { width: 0; height: 0; border-left: .42rem solid transparent; border-right: .42rem solid transparent; border-bottom: .75rem solid var(--ochre); display: inline-block; }
+.hero-map .note { flex-basis: 100%; font-style: normal; }
+
+.home-body { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(1.5rem, 4vw, 3.5rem); border-top: 1px solid var(--rule); padding-top: 2.5rem; }
+.home-body h2 { margin-top: 0; }
+.home-intro p:first-child { font-size: 1.1rem; }
+.home-intro ul { padding-left: 1.1rem; }
+.home-intro li { margin-bottom: .35rem; }
+.home-intro li::marker { color: var(--band-1); }
+
+.facts { display: grid; grid-template-columns: max-content 1fr; gap: .35rem 1.25rem; margin: 1.75rem 0 0; font-size: .95rem; }
+.facts dt { font-family: var(--sans); font-weight: 600; color: var(--ink); }
+.facts dd { margin: 0; }
+
+.themes { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem 1.75rem; }
+.theme { padding-top: .75rem; border-top: 3px solid var(--band-2); }
+.theme .theme-h { margin: 0 0 .35rem; font-family: var(--sans); font-weight: 650; font-size: 1.05rem; color: var(--ink); line-height: 1.35; }
+.theme p:not(.theme-h) { margin: 0; font-size: .95rem; }
+.theme .tag { display: inline-block; margin-left: .35rem; font-size: .72rem; font-weight: 500; color: var(--band-1); background: var(--band-3); padding: .05rem .45rem; border-radius: 3px; vertical-align: .15em; }
+
+.home-recent { border-top: 1px solid var(--rule); margin-top: 3rem; padding-top: 2.5rem; padding-bottom: 1rem; }
+.home-recent h2 { margin-top: 0; }
+.home-recent .pub-year { display: none; }
+.allpubs { font-family: var(--sans); font-weight: 600; }
+
+/* ============ About ============ */
+.cv-row { display: grid; grid-template-columns: 11rem minmax(0, 1fr); gap: 1.5rem; padding: 1.5rem 0; border-top: 1px solid var(--rule); }
+.cv-row > h2 { margin: 0; font-size: 1.1rem; }
+.cv-row ul { list-style: none; padding: 0; margin: 0; }
+.cv-row li { margin-bottom: .7rem; }
+.cv-row li strong { font-family: var(--sans); font-weight: 600; color: var(--ink); }
+.cv-row .sub { display: block; color: var(--muted); font-size: .92rem; }
+.cv-row .current { font-family: var(--sans); font-size: .72rem; font-weight: 600; color: var(--band-1); background: var(--band-3); padding: .05rem .45rem; border-radius: 3px; margin-left: .35rem; vertical-align: .15em; }
+
+/* ============ Research ============ */
+.focus { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: .75rem 1.5rem; margin: 1.25rem 0; }
+.focus li { display: flex; align-items: center; gap: .75rem; font-family: var(--sans); font-weight: 500; color: var(--ink); max-width: none; }
+.focus i { width: 2.1rem; height: 2.1rem; display: inline-grid; place-items: center; border-radius: 50%; background: var(--band-3); color: var(--band-1); font-size: .95rem; flex: none; }
+
+.projects { display: grid; gap: 1.5rem; margin-top: 1rem; }
+.project { display: grid; grid-template-columns: 9rem minmax(0, 1fr); gap: 1.25rem; align-items: start; }
+.project .p-side { font-family: var(--sans); font-size: .78rem; color: var(--muted); padding-top: .25rem; }
+.project .p-side img { max-width: 100%; height: auto; display: block; margin-bottom: .35rem; }
+.project h3 { margin: 0 0 .25rem; font-size: 1.05rem; }
+.project p { margin: 0; }
+
+.video { position: relative; aspect-ratio: 16 / 9; max-width: 760px; margin: 1.25rem 0; border-radius: 6px; overflow: hidden; background: #000; }
+.video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+/* ============ Teaching ============ */
+.pullquote { margin: 1.75rem 0; padding: 0 0 0 1.25rem; border-left: 3px solid var(--band-1); }
+.pullquote p { font-size: 1.2rem; line-height: 1.5; font-style: italic; color: var(--ink); margin: 0 0 .5rem; }
+.pullquote footer { font-family: var(--sans); font-size: .85rem; color: var(--muted); }
+
+.courses { list-style: none; padding: 0; margin: 1rem 0; display: grid; gap: .75rem; }
+.courses li { display: grid; grid-template-columns: 6.5rem minmax(0, 1fr); gap: 1rem; align-items: baseline; padding: .85rem 1rem; background: #fff; border: 1px solid var(--rule); border-radius: 6px; max-width: 46rem; }
+.courses .code { font-family: var(--sans); font-weight: 700; color: var(--band-1); font-variant-numeric: tabular-nums; letter-spacing: .02em; }
+.courses strong { font-family: var(--sans); color: var(--ink); display: block; }
+.courses .c-d { color: var(--muted); font-size: .95rem; }
+
+.cols-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0 2rem; }
+.cols-2 h3 { margin-top: .5rem; }
+.chips { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: .5rem; }
+.chips li { font-family: var(--sans); font-size: .88rem; padding: .3rem .75rem; background: var(--band-3); color: var(--ink); border-radius: 999px; }
+
+/* ============ Consultancy ============ */
+.services { list-style: none; padding: 0; margin: 1.5rem 0; display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.services li { font-family: var(--sans); font-weight: 600; color: var(--ink); padding: 1rem 1.1rem; background: #fff; border: 1px solid var(--rule); border-left: 3px solid var(--band-1); border-radius: 4px; max-width: none; line-height: 1.4; }
+.areas { margin-bottom: 2rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); gap: 1.5rem 2rem; margin-top: 1rem; }
+.area { display: grid; grid-template-columns: 2.4rem minmax(0, 1fr); gap: .85rem; }
+.area i { width: 2.4rem; height: 2.4rem; display: grid; place-items: center; border-radius: 50%; background: var(--band-3); color: var(--band-1); }
+.area h3 { margin: .1rem 0 .2rem; font-size: 1rem; }
+.area p { margin: 0; font-size: .95rem; }
+
+/* ============ Contact ============ */
+.contact-links { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: .6rem; }
+.contact-links a { display: inline-flex; align-items: center; gap: .5rem; padding: .5rem .9rem; border: 1px solid var(--rule); background: #fff; border-radius: 4px; text-decoration: none; font-family: var(--sans); font-weight: 500; color: var(--ink); }
+.contact-links a:hover { border-color: var(--band-1); color: var(--band-1); }
+.btn-form { display: inline-block; font-family: var(--sans); font-weight: 600; background: var(--band-1); color: #fff !important; padding: .6rem 1.1rem; border-radius: 4px; text-decoration: none; }
+.btn-form:hover { background: var(--ink); }
+
+/* ============ Publications ============ */
+.filters { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1rem 0 1.5rem; }
+.filters button { border: 1px solid var(--band-1); background: transparent; color: var(--band-1); border-radius: 999px; padding: .3rem .9rem; font-size: .88rem; font-weight: 500; cursor: pointer; }
+.filters button:hover { background: var(--band-3); }
+.filters button[aria-pressed="true"] { background: var(--band-1); color: #fff; }
+.filters button .n { opacity: .75; margin-left: .3rem; font-size: .78rem; }
+.pub-group { margin-bottom: 1.5rem; }
+.pub-year { font-weight: 700; font-size: .9rem; color: var(--ink); border-bottom: 2px solid var(--ink); padding-bottom: .25rem; margin-bottom: .25rem; font-variant-numeric: tabular-nums; }
+.pub-list { list-style: none; padding: 0; margin: 0; }
+.pub { padding: .8rem 0; border-bottom: 1px solid var(--rule); max-width: none; }
+.pub:last-child { border-bottom: 0; }
+.pub-title { font-weight: 600; line-height: 1.38; }
+.pub-title a { text-decoration: none; color: var(--ink); }
+.pub-title a:hover { color: var(--band-1); text-decoration: underline; }
+.pub-authors { font-size: .9rem; color: var(--muted); margin-top: .2rem; }
+.pub-authors strong { color: var(--text); }
+.pub-meta { font-size: .82rem; margin-top: .25rem; display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; }
+.pub-meta em { font-family: "Source Serif 4", Georgia, serif; font-size: .9rem; }
+.pub-tag { font-size: .72rem; padding: .05rem .5rem; border-radius: 3px; background: var(--band-3); color: var(--band-1); font-weight: 500; }
+.pub[hidden], .pub-group[hidden] { display: none; }
+.more { display: block; margin-top: .5rem; font-family: var(--sans); font-weight: 600; }
+
+/* ============ Responsive ============ */
+@media (max-width: 860px) {
+  .hero, .home-body { grid-template-columns: 1fr; }
+  .hero-map { order: 2; }
+  .hero-thesis { max-width: none; }
+}
+@media (max-width: 640px) {
+  .themes, .services, .cols-2 { grid-template-columns: 1fr; }
+  .cv-row, .project { grid-template-columns: 1fr; gap: .5rem; }
+  .courses li { grid-template-columns: 1fr; gap: .15rem; }
+}
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }

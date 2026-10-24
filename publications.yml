@@ -1,0 +1,256 @@
+# Publications for the Research page. Newest first; order within a year is kept as written.
+# themes: access, maternal, climate, routine (used by the filter buttons).
+
+- title: "Child health service coverage estimation using routine health data from Ghana’s Eastern Region"
+  authors: "Johnson, M., Dotse-Gborgbortsi, W., Ofosu, A., Utazi, C. E., McGrath, N., & Wright, J."
+  venue: "Communications Medicine"
+  year: 2026
+  doi: "https://doi.org/10.1038/s43856-026-01946-3"
+  themes: ["maternal", "routine"]
+
+- title: "A harmonised framework for assessing geographic healthcare access across the rural-urban continuum"
+  authors: "Zhang, W. B., Fang, W., Chamberlain, H., Liu, H., Liang, L., Dotse-Gborgbortsi, W., ... & Sorichetta, A."
+  venue: "Communications Health"
+  year: 2026
+  doi: "https://doi.org/10.1038/s44528-026-00017-2"
+  themes: ["access"]
+
+- title: "Inequities in geographic access to emergency obstetric and newborn care in Greater Accra"
+  authors: "Wong, K. L., Dotse-Gborgbortsi, W., Dwomoh, D., Avoka, C., Shetty, S., Sriram, P., ... & Banke-Thomas, A."
+  venue: "Nature Cities"
+  year: 2026
+  doi: "https://doi.org/10.1038/s44284-026-00479-z"
+  themes: ["access", "maternal"]
+
+- title: "Globalisation, rising authoritarianism, declining solidarity, and retreating multilateralism: A perfect storm for amplifying the risk of outbreaks"
+  authors: "Dotse-Gborgbortsi, W., & Pai, M."
+  venue: "PLOS Global Public Health"
+  year: 2026
+  doi: "https://doi.org/10.1371/journal.pgph.0006783"
+  themes: []
+
+- title: "Urban–Rural Disparities in Geographic Healthcare Accessibility: A Comparative Study of Nigeria and Zambia"
+  authors: "Fang, W., Zhang, W. B., Woods, D., Chamberlain, H., Dotse-Gborgbortsi, W., Olowe, I. D., ... & Sorichetta, A."
+  venue: "Journal of Urban Health"
+  year: 2026
+  doi: "https://doi.org/10.1007/s11524-026-01077-z"
+  themes: ["access"]
+
+- title: "Maternal and child healthcare coverage and trends: refugee vs non-refugee districts in Uganda"
+  authors: "Nsubuga, R., Kananura, R. M., Wasswa, R., Birabwa, C., Ogwal, J., Dotse-Gborgbortsi, W., ... & Nilsen, K."
+  venue: "Conflict and Health"
+  year: 2026
+  doi: "https://doi.org/10.1186/s13031-026-00780-7"
+  themes: ["maternal"]
+
+- title: "Spatio-temporal patterns of health service delivery and access to maternal, child, and outpatient healthcare in Volta region, Ghana: a repeated cross-sectional ecological study using health facility data"
+  authors: "Dotse-Gborgbortsi, W., Nilsen, K., Yankey, O., Ofosu, A., Ankomah, T., Tweneboah, E., … Wright, J."
+  venue: "Global Health Action"
+  year: 2025
+  doi: "https://doi.org/10.1080/16549716.2025.2513861"
+  themes: ["access", "maternal", "routine"]
+
+- title: "Tracking progress in reproductive, maternal, newborn, child and adolescent health and nutrition: the Countdown to 2030 for Women’s, Children’s and Adolescents’ Health report"
+  authors: "Amouzou, A., Barros, A. J. D., Requejo, J., Faye, C., Akseer, N., Bendavid, E., Blumenberg, C., Borghi, J., El Baz, S., Federspiel, F., Ferreira, L. Z., Hazel, E., Heft-Neal, S., Hellwig, F., Liu, L., Munos, M., Pitt, C., Shawar, Y. R., Shiffman, J., ... Boerma, T."
+  venue: "The Lancet"
+  year: 2025
+  doi: "https://doi.org/10.1016/S0140-6736(25)00151-5"
+  themes: ["maternal"]
+
+- title: "Beyond Proximity: Examining Stillbirth Rates in The Gambia and the Influence of Emergency Obstetric and Newborn Care Accessibility"
+  authors: "Wariri, O., Dotse-Gborgbortsi, W., Agbla, S. C., Jah, H., Janneh, M., Cham, M., Jawara, B. F., Nayassi, M., Marema, M., Sanneh, S., Kampmann, B., Banke-Thomas, A., Lawn, J. E., & Okomo, U."
+  venue: "BMJ Global Health"
+  year: 2025
+  doi: "https://doi.org/10.1136/bmjgh-2024-016579"
+  themes: ["access", "maternal"]
+
+- title: "Beyond physical accessibility, bypassing health facilities offering cesarean section: a study based on women living in the slums of Dakar"
+  authors: "Sylla, E. H. M., Fall, N. A., Dotse-Gborgbortsi, W., Sandie, A. B., Gueye, B. S., Senghor, D. B., Cissé, B., Bocoum, F. Y., Sy, I. O., & Faye, C."
+  venue: "BMJ Open"
+  year: 2025
+  doi: "https://doi.org/10.1136/bmjopen-2024-088606"
+  themes: ["access", "maternal"]
+
+- title: "Geospatial variation in vaccination coverage and zero-dose prevalence at the district, ward and health facility levels before and after a measles vaccination campaign in Nigeria"
+  authors: "Utazi, E., Olowe, I., Chan, H. M. T., Dotse-Gborgbortsi, W., Wagai, J., Umar, J., Etamesor, S., Atuhaire, B., Fafunmi, B., Crawford, J., Adeniran, A., & Tatem, A."
+  venue: "Vaccines"
+  year: 2024
+  doi: "https://doi.org/10.3390/vaccines12121299"
+  themes: ["maternal"]
+
+- title: "Multi-level determinants of timely routine childhood vaccinations in The Gambia: Findings from a nationwide analysis"
+  authors: "Wariri, O., Utazi, C. E., Okomo, U., Dotse-Gborgbortsi, W., Sogur, M., Fofana, S., Murray, K. A., Grundy, C., & Kampmann, B."
+  venue: "Vaccine"
+  year: 2024
+  doi: "https://doi.org/10.1016/j.vaccine.2024.126500"
+  themes: ["maternal"]
+
+- title: "Impact of urban slum residence on coverage of maternal, neonatal, and child health service indicators in the Greater Accra region of Ghana: an ecological time-series analysis, 2018–2021"
+  authors: "Dwomoh, D., Iddi, S., Afagbedzi, S. K., Tejedor-Garavito, N., Dotse-Gborgbortsi, W., Wright, J., Tatem, A. J., & Nilsen, K."
+  venue: "Journal of Urban Health"
+  year: 2023
+  doi: "https://doi.org/10.1007/s11524-023-00812-0"
+  themes: ["maternal"]
+
+- title: "Validating indicators for monitoring availability and geographic distribution of emergency obstetric and newborn care (EmoNC) facilities: a study triangulating health system, facility, and geospatial data"
+  authors: "Gausman, J., Pingray, V., Adanu, R., Bandoh, D. A. B., Barrueta, M., Blossom, J., Chakraborty, S., Dotse-Gborgbortsi, W., Kenu, E., Khan, N., Langer, A., Nigri, C., Odikro, M. A., Ramesh, S., Saggurti, N., Vazquez, P., Williams, C. R., & Jolivet, R. R."
+  venue: "PLoS ONE"
+  year: 2023
+  doi: "https://doi.org/10.1371/journal.pone.0287904"
+  themes: ["access", "maternal"]
+
+- title: "Impact of mobile health on maternal and child health service utilization and continuum of care in Northern Ghana"
+  authors: "Nuhu, A. G. K., Dwomoh, D., Amuasi, S. A., Dotse-Gborgbortsi, W., Kubio, C., Apraku, E. A., Timbire, J. K., & Nonvignon, J."
+  venue: "Scientific Reports"
+  year: 2023
+  doi: "https://doi.org/10.1038/s41598-023-29683-w"
+  themes: ["maternal"]
+
+- title: "Quality of maternal healthcare and travel time influence birthing service utilisation in Ghanaian health facilities: a geographical analysis of routine health data"
+  authors: "Dotse-Gborgbortsi, W., Tatem, A., Matthews, Z., Alegana, V. A., Ofosu, A., & Wright, J."
+  venue: "BMJ Open"
+  year: 2023
+  doi: "https://doi.org/10.1136/bmjopen-2022-066792"
+  themes: ["access", "maternal", "routine"]
+
+- title: "Dam-mediated flooding impact on outpatient attendance and diarrhoea cases in northern Ghana: a mixed methods study"
+  authors: "Dotse-Gborgbortsi, W., Dwomoh, D., Asamoah, M., Gyimah, F., Dzodzomenyo, M., Li, C., Akowuaha, G., Ofosu, A., & Wright, J."
+  venue: "BMC Public Health"
+  year: 2022
+  doi: "https://doi.org/10.1186/s12889-022-14568-w"
+  themes: ["climate"]
+
+- title: "Exposure to family planning messages and contraceptive use among women of reproductive age in Sub-Saharan Africa: a cross-sectional program impact evaluation study"
+  authors: "Dwomoh, D., Amuasi, S. A., Amoah, E. M., Dotse-Gborgbortsi, W., & Tetteh, J."
+  venue: "Scientific Reports"
+  year: 2022
+  doi: "https://doi.org/10.1038/s41598-022-22525-1"
+  themes: ["maternal"]
+
+- title: "Distance is “a big problem”: a geographic analysis of reported and modelled proximity to maternal health services in Ghana"
+  authors: "Dotse-Gborgbortsi, W., Nilsen, K., Ofosu, A., Matthews, Z., Tejedor Garavito, N., Wright, J., & Tatem, A."
+  venue: "BMC Pregnancy and Childbirth"
+  year: 2022
+  doi: "https://doi.org/10.1186/s12884-022-04998-0"
+  themes: ["access", "maternal"]
+
+- title: "Delineating natural catchment health districts with routinely collected health data from women's travel to give birth in Ghana"
+  authors: "Dotse-Gborgbortsi, W., Tatem, A., Matthews, Z., Alegana, V. A., Ofosu, A., & Wright, J."
+  venue: "BMC Health Services Research"
+  year: 2022
+  doi: "https://doi.org/10.1186/s12913-022-08125-9"
+  themes: ["access", "maternal", "routine"]
+
+- title: "Multilevel analysis of predictors of multiple indicators of childhood vaccination in Nigeria"
+  authors: "Aheto, J., Pannell, O. B., Dotse-Gborgbortsi, W., Trimner, M. K., Tatem, A., Rhoda, D. A., Cutts, F. T., & Utazi, C."
+  venue: "PLoS ONE"
+  year: 2022
+  doi: "https://doi.org/10.1371/journal.pone.0269066"
+  themes: ["maternal"]
+
+- title: "Mapping access to basic hygiene services in low- and middle-income countries: a cross-sectional case study of geospatial disparities"
+  authors: "Yu, W., Bain, R. E. S., Yu, J., Alegana, V. A., Dotse-Gborgbortsi, W., Lin, Y., & Wright, J."
+  venue: "Applied Geography"
+  year: 2021
+  doi: "https://doi.org/10.1016/j.apgeog.2021.102549"
+  themes: ["access"]
+
+- title: "District‐level estimation of vaccination coverage: discrete vs continuous spatial models"
+  authors: "Utazi, C. E., Nilsen, K., Pannell, O., Dotse-Gborgbortsi, W., & Tatem, A. J."
+  venue: "Statistics in Medicine"
+  year: 2021
+  doi: "https://doi.org/10.1002/sim.8897"
+  themes: ["maternal"]
+
+- title: "Prevalence and factors associated with overweight and obesity in selected health areas in a rural health district in Cameroon: a cross-sectional analysis"
+  authors: "Simo, L. P., Agbor, V. N., Temgoua, F. Z., Fozeu, L. C. F., Bonghaseh, D. T., Mbonda, A. G. N., Yurika, R., Dotse-Gborgbortsi, W., & Mbanya, D."
+  venue: "BMC Public Health"
+  year: 2021
+  doi: "https://doi.org/10.1186/s12889-021-10403-w"
+  themes: []
+
+- title: "Variation in SARS-CoV-2 outbreaks across sub-Saharan Africa"
+  authors: "Rice, B. L., Annapragada, A., Baker, R. E., Bruijning, M., Dotse-Gborgbortsi, W., Mensah, K., Miller, I. F., Motaze, N. V., Raherinandrasana, A., Rajeev, M., Rakotonirina, J., Ramiadantsoa, T., Rasambainarivo, F., Yu, W., Grenfell, B. T., Tatem, A., & Metcalf, C. J. E."
+  venue: "Nature Medicine"
+  year: 2021
+  doi: "https://doi.org/10.1038/s41591-021-01234-8"
+  themes: []
+
+- title: "The influence of travel time to health facilities on stillbirths: a geospatial case-control analysis of facility-based data in Gombe, Nigeria"
+  authors: "Wariri, O., Onuwabuchi, E., Korem Alhassan, J. A., Dase, E., Jalo, I., Laima, C. H., Farouk, H. U., El-Nafaty, A. U., Okomo, U., & Dotse-Gborgbortsi, W."
+  venue: "PLoS ONE"
+  year: 2021
+  doi: "https://doi.org/10.1371/journal.pone.0245297"
+  themes: ["access", "maternal", "routine"]
+
+- title: "State of the world's midwifery 2021"
+  authors: "United Nations Population Fund, International Confederation of Midwives, World Health Organization"
+  venue: "UNFPA global report (technical contributor)"
+  year: 2021
+  doi: ""
+  themes: ["maternal"]
+  type: "report"
+
+- title: "Healthcare-seeking behaviour in reporting of scabies and skin infections in Ghana – a review of reported cases"
+  authors: "Head, M., Dotse-Gborgbortsi, W., Boateng, L., & Lartey, M."
+  venue: "Transactions of the Royal Society of Tropical Medicine and Hygiene"
+  year: 2020
+  doi: "https://doi.org/10.1093/trstmh/traa071"
+  themes: ["routine"]
+
+- title: "Spatial inequalities in skilled attendance at birth in Ghana: a multilevel analysis integrating health facility databases with household survey data"
+  authors: "Dotse-Gborgbortsi, W., Tatem, A. J., Alegana, V., Utazi, C. E., Ruktanonchai, C. W., & Wright, J."
+  venue: "Tropical Medicine & International Health"
+  year: 2020
+  doi: "https://doi.org/10.1111/tmi.13460"
+  themes: ["access", "maternal"]
+
+- title: "Characteristics of packaged water production facilities in Greater Accra, Ghana: implications for water safety and associated environmental impacts"
+  authors: "Semey, M., Dotse-Gborgbortsi, W., Dzodzomenyo, M., & Wright, J."
+  venue: "Journal of Water Sanitation and Hygiene for Development"
+  year: 2020
+  doi: "https://doi.org/10.2166/washdev.2020.110"
+  themes: []
+
+- title: "The influence of distance and quality on utilisation of birthing services at health facilities in Eastern Region, Ghana"
+  authors: "Dotse-Gborgbortsi, W., Dwomoh, D., Alegana, V., Hill, A. G., Tatem, A., & Wright, J."
+  venue: "BMJ Global Health"
+  year: 2020
+  doi: "https://doi.org/10.1136/bmjgh-2019-002020"
+  themes: ["access", "maternal"]
+
+- title: "Sachet water and product registration: a cross-sectional study in Accra, Ghana"
+  authors: "Dzodzomenyo, M., Fink, G., Hill, A., Dotse-Gborgbortsi, W., Wardrop, N., Aryeetey, G., Coleman, N., & Wright, J."
+  venue: "Journal of Water and Health"
+  year: 2018
+  doi: "https://doi.org/10.2166/wh.2018.055"
+  themes: []
+
+- title: "A cross-sectional ecological analysis of international and sub-national health inequalities in commercial geospatial resource availability"
+  authors: "Dotse-Gborgbortsi, W., Wardrop, N., Adewole, A. P., Thomas-Possee, M. L. H., & Wright, J."
+  venue: "International Journal of Health Geographics"
+  year: 2018
+  doi: "https://doi.org/10.1186/s12942-018-0134-z"
+  themes: []
+
+- title: "Geographic distribution of registered packaged water production in Ghana: implications for piped supplies, groundwater management and product transportation"
+  authors: "Dzodzomenyo, M., Dotse-Gborgbortsi, W., Lapworth, D., Wardrop, N., & Wright, J."
+  venue: "Water"
+  year: 2017
+  doi: "https://doi.org/10.3390/w9020142"
+  themes: []
+
+- title: "Use of a spatial scan statistic to identify clusters of births occurring outside Ghanaian health facilities for targeted intervention"
+  authors: "Bosomprah, S., Dotse-Gborgbortsi, W., Aboagye, P., & Matthews, Z."
+  venue: "International Journal of Gynecology and Obstetrics"
+  year: 2016
+  doi: "https://doi.org/10.1016/j.ijgo.2016.04.016"
+  themes: ["maternal"]
+
+- title: "Spatial distribution of emergency obstetric and newborn care services in Ghana: using the evidence to plan interventions"
+  authors: "Bosomprah, S., Tatem, A. J., Dotse-Gborgbortsi, W., Aboagye, P., & Matthews, Z."
+  venue: "International Journal of Gynecology & Obstetrics"
+  year: 2016
+  doi: "https://doi.org/10.1016/j.ijgo.2015.11.004"
+  themes: ["access", "maternal"]
+

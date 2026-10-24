@@ -3,13 +3,18 @@ project:
 
 website:
   title: "Winfred Dotse-Gborgbortsi"
+  site-url: https://winfredotse.com
+  description: "Lecturer in Geographies of Health at UCL. Spatial epidemiology, access to maternal and child health care, climate and health."
+  image: /Winfred_headshot.jpg
+  open-graph: true
+  twitter-card:
+    creator: "@dgwinfred"
   navbar:
-    background: info
     left:
       - href: index.qmd
         text: Home
       - href: about.qmd
-        text: About Winfred
+        text: About
       - href: research.qmd
         text: Research
       - href: teaching.qmd
@@ -20,13 +25,20 @@ website:
         text: Blog
       - href: contact.qmd
         text: Contact
-        
+  page-footer:
+    left: "© 2026 Winfred Dotse-Gborgbortsi"
+    right: "Department of Geography, University College London"
 
 format:
   html:
-    theme: cosmo
+    theme: [cosmo, theme.scss]
     css: styles.css
     toc: true
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 editor: visual
-

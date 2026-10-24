@@ -1,0 +1,27 @@
+<%
+const labels = { access: "Access", maternal: "Maternal health", climate: "Climate", routine: "Routine data" };
+const groups = [];
+for (const item of items) {
+  const y = String(item.year);
+  if (!groups.length || groups[groups.length - 1].year !== y) groups.push({ year: y, items: [] });
+  groups[groups.length - 1].items.push(item);
+}
+const esc = (s) => String(s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+const me = "Dotse-Gborgbortsi, W.";
+let out = '<div class="pubs">';
+for (const g of groups) {
+  out += '\n<section class="pub-group">\n<div class="pub-year">' + g.year + '</div>\n<ol class="pub-list">';
+  for (const item of g.items) {
+    const themes = item.themes || [];
+    const title = item.doi ? '<a href="' + item.doi + '">' + item.title + '</a>' : item.title;
+    const tags = themes.map((t) => '<span class="pub-tag">' + (labels[t] || t) + '</span>').join("");
+    out += '\n<li class="pub" data-themes="' + themes.join(" ") + '">'
+      + '\n<div class="pub-title">' + title + '</div>'
+      + '\n<div class="pub-authors">' + esc(item.authors).split(me).join("<strong>" + me + "</strong>") + '</div>'
+      + '\n<div class="pub-meta"><em>' + esc(item.venue) + '</em>' + tags + '</div>\n</li>';
+  }
+  out += '\n</ol>\n</section>';
+}
+out += '\n</div>\n';
+%>
+<%= out %>

@@ -1,0 +1,38 @@
+/*-- scss:defaults --*/
+// Palette drawn from travel-time maps
+$ink:     #0F3B47;   // map ink: headings, navbar text
+$text:    #1C2B30;   // body text
+$paper:   #F6F8F7;   // cool off-white page
+$band-1:  #1F7A6D;   // 30 min band, links, primary
+$band-2:  #8DC3B0;   // 60 min band
+$band-3:  #DCEBE4;   // 120 min band, soft fills
+$ochre:   #B7821A;   // facility markers only
+$rule:    #D5DFDB;
+
+$body-bg: $paper;
+$body-color: $text;
+$primary: $band-1;
+$secondary: #5B6E73;
+$link-color: $band-1;
+$border-color: $rule;
+
+$font-family-sans-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+$headings-font-family: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+$headings-color: $ink;
+$headings-font-weight: 650;
+$font-size-root: 17px;
+$line-height-base: 1.65;
+
+$navbar-bg: $paper;
+$navbar-fg: $ink;
+$navbar-hl: $band-1;
+$footer-bg: $paper;
+$footer-fg: #5B6E73;
+
+/*-- scss:rules --*/
+:root {
+  --ink: #{$ink}; --text: #{$text}; --paper: #{$paper};
+  --band-1: #{$band-1}; --band-2: #{$band-2}; --band-3: #{$band-3};
+  --ochre: #{$ochre}; --rule: #{$rule}; --muted: #5B6E73;
+  --sans: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}

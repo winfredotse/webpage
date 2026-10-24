@@ -1,6 +1,27 @@
 ---
 title: "Contact"
-format: html
+toc: false
 ---
 
-You can reach out to me by filling out [this form](https://forms.gle/RjA6aLHMJ35ZZJdr5).
+I welcome enquiries from prospective PhD students, collaborators and health agencies.
+
+The quickest way to reach me is through my contact form.
+
+[Open the contact form](https://forms.gle/RjA6aLHMJ35ZZJdr5){.btn-form}
+
+## Find me online
+
+```{=html}
+<ul class="contact-links">
+  <li><a href="https://profiles.ucl.ac.uk/104586-winfred-dotsegborgbortsi/about"><i class="fa-solid fa-building-columns" aria-hidden="true"></i>UCL profile</a></li>
+  <li><a href="https://scholar.google.com/scholar?q=Dotse-Gborgbortsi"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>Google Scholar</a></li>
+  <li><a href="https://x.com/dgwinfred"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i>X @dgwinfred</a></li>
+  <li><a href="https://github.com/winfredotse"><i class="fa-brands fa-github" aria-hidden="true"></i>GitHub</a></li>
+</ul>
+```
+
+## Address
+
+Department of Geography  
+University College London  
+Gower Street, London WC1E 6BT

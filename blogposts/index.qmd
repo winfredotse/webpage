@@ -1,9 +1,10 @@
 ---
-title: ""
+title: "Blog"
+toc: false
 listing:
   contents: "."
   sort: "date desc"
   type: default
 ---
 
-# 
+Thoughts on public health and geographic data science.

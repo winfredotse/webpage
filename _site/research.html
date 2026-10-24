@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>research – Winfred Dotse-Gborgbortsi</title>
+<title>Research – Winfred Dotse-Gborgbortsi</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -39,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d32d9f0362de61308d663f7a207075d6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-330a81b6cad54dc468ef58e6008247e4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,10 +69,81 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-pubs .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-authors','listing-venue','listing-year','listing-doi','listing-themes','listing-type',{ data: ['index'] },{ data: ['categories'] }],
+      page: 25,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-authors","listing-venue","listing-year","listing-doi","listing-themes","listing-type"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-pubs'] = new List('listing-pubs', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&amp;display=swap">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Research – Winfred Dotse-Gborgbortsi">
+<meta property="og:description" content="Lecturer in Geographies of Health at UCL. Spatial epidemiology, access to maternal and child health care, climate and health.">
+<meta property="og:image" content="https://winfredotse.com/images/ghana_spatial_inequalities.jpg">
+<meta property="og:site_name" content="Winfred Dotse-Gborgbortsi">
+<meta name="twitter:title" content="Research – Winfred Dotse-Gborgbortsi">
+<meta name="twitter:description" content="Lecturer in Geographies of Health at UCL. Spatial epidemiology, access to maternal and child health care, climate and health.">
+<meta name="twitter:image" content="https://winfredotse.com/images/ghana_spatial_inequalities.jpg">
+<meta name="twitter:creator" content="@dgwinfred">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -96,7 +169,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About Winfred</span></a>
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./research.html" aria-current="page"> 
@@ -134,89 +207,579 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#research-approach" id="toc-research-approach" class="nav-link active" data-scroll-target="#research-approach">Research Approach</a></li>
-  <li><a href="#current-projects" id="toc-current-projects" class="nav-link" data-scroll-target="#current-projects">Current Projects</a></li>
-  <li><a href="#collaborations-impact" id="toc-collaborations-impact" class="nav-link" data-scroll-target="#collaborations-impact">Collaborations &amp; Impact</a></li>
-  <li><a href="#peer-reviewed-publications" id="toc-peer-reviewed-publications" class="nav-link" data-scroll-target="#peer-reviewed-publications">Peer-Reviewed Publications</a></li>
-  <li><a href="#global-report" id="toc-global-report" class="nav-link" data-scroll-target="#global-report">Global Report</a></li>
+  <li><a href="#research-approach" id="toc-research-approach" class="nav-link active" data-scroll-target="#research-approach">Research approach</a></li>
+  <li><a href="#current-projects" id="toc-current-projects" class="nav-link" data-scroll-target="#current-projects">Current projects</a></li>
+  <li><a href="#collaborations-and-impact" id="toc-collaborations-and-impact" class="nav-link" data-scroll-target="#collaborations-and-impact">Collaborations and impact</a></li>
+  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Research</h1>
+</div>
 
 
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 <section id="research-approach" class="level2">
-<h2 class="anchored" data-anchor-id="research-approach">Research Approach</h2>
+<h2 class="anchored" data-anchor-id="research-approach">Research approach</h2>
 <p>My work is grounded in the belief that better data leads to better health outcomes. By combining GIS and public health methods, I examine where and why inequalities in healthcare access exist, particularly for women and children. My research supports data-driven planning, helping decision-makers allocate resources more equitably and improve health service delivery.</p>
 <p>My research sits at the crossroads of geographic data science and public health, with a particular interest in how location and distribution of quality health services influence health outcomes. I focus on:</p>
-<p><i class="fa-solid fa-car-side"></i> Healthcare accessibility and utilisation</p>
-<p><i class="fa-solid fa-hands-holding-child"></i> Maternal, newborn, and child health</p>
-<p><i class="fa-solid fa-route"></i> Spatial health inequalities</p>
-<p><i class="fa-solid fa-hospital-user"></i> Routine health data systems</p>
-<p><i class="fa-solid fa-bacteria"></i> Spatial epidemiology and mapping disease patterns</p>
+<ul class="focus">
+  <li><i class="fa-solid fa-car-side" aria-hidden="true"></i>Healthcare accessibility and utilisation</li>
+  <li><i class="fa-solid fa-hands-holding-child" aria-hidden="true"></i>Maternal, newborn and child health</li>
+  <li><i class="fa-solid fa-route" aria-hidden="true"></i>Spatial health inequalities</li>
+  <li><i class="fa-solid fa-hospital-user" aria-hidden="true"></i>Routine health data systems</li>
+  <li><i class="fa-solid fa-bacteria" aria-hidden="true"></i>Spatial epidemiology and disease mapping</li>
+</ul>
 </section>
 <section id="current-projects" class="level2">
-<h2 class="anchored" data-anchor-id="current-projects">Current Projects</h2>
-<p>I’m currently involved in several collaborative research initiatives, including:</p>
-<p><img src="images/clipboard-373368731.png" class="img-fluid"></p>
-<p><a href="https://www.countdown2030.org/">Countdown to 2030</a> – A multi-country effort working with health ministries and academic partners across more than 26 African nations. We use routine health facility data to track progress towards key health-related Sustainable Development Goals (SDGs).</p>
-<p><a href="https://gtr.ukri.org/projects?ref=MR%2FZ505316%2F1">CONTAIN Project</a>– As a Co-Investigator on this UKRI-funded project, I work alongside a cross-disciplinary team exploring new ways to understand and manage the spread of infectious diseases through spatial and social analysis.</p>
-</section>
-<section id="collaborations-impact" class="level2">
-<h2 class="anchored" data-anchor-id="collaborations-impact">Collaborations &amp; Impact</h2>
-<p>I regularly collaborate with government health agencies, NGOs, and international partners to turn research into real-world solutions. My work has informed health strategies across low- and middle-income countries, particularly in sub-Saharan Africa. My PhD, funded by the ESRC, was <a href="https://www.ukri.org/who-we-are/how-we-are-doing/research-outcomes-and-impact/esrc/improving-access-to-pregnancy-and-birth-services-in-ghana/">recognised nationally</a> and <a href="https://southcoastdtp.ac.uk/news-post/the-scdtp-is-delighted-to-announce-the-winners-of-the-2020-21-and-2021-22-scdtp-impact-prizes-congratulations-to-all-winners/">locally</a> for its impact on evidence-based policymaking and capacity development in Ghana.</p>
-<p>Below is a video produced by the ESRC highlighting my research impact in Ghana.</p>
-<div class="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/00Z3QJWFmho" title="ESRC Impact Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
-</iframe>
+<h2 class="anchored" data-anchor-id="current-projects">Current projects</h2>
+<div class="projects">
+  <div class="project">
+    <div class="p-side"><img src="images/clipboard-373368731.png" alt="Countdown to 2030 logo"></div>
+    <div><h3 class="anchored"><a href="https://www.countdown2030.org/">Countdown to 2030</a></h3>
+    <p>A multi-country effort working with health ministries and academic partners across more than 26 African nations. We use routine health facility data to track progress towards key health-related Sustainable Development Goals (SDGs).</p></div>
+  </div>
+  <div class="project">
+    <div class="p-side">UKRI, Co-Investigator</div>
+    <div><h3 class="anchored"><a href="https://gtr.ukri.org/projects?ref=MR%2FZ505316%2F1">CONTAIN Project</a></h3>
+    <p>I work alongside a cross-disciplinary team exploring new ways to understand and manage the spread of infectious diseases through spatial and social analysis.</p></div>
+  </div>
+  <div class="project">
+    <div class="p-side">UCL Geography, Lead</div>
+    <div><h3 class="anchored">Geographies of Health research cluster</h3>
+    <p>A new cluster bringing together work on place, access and health inequalities.</p></div>
+  </div>
+  <div class="project">
+    <div class="p-side">In development</div>
+    <div><h3 class="anchored">FIND Study</h3>
+    <p>Finding mother and child pairs who have dropped out of maternal and child health services in Ghana and Nigeria, so services can reach them again.</p></div>
+  </div>
 </div>
 </section>
-<section id="peer-reviewed-publications" class="level2">
-<h2 class="anchored" data-anchor-id="peer-reviewed-publications">Peer-Reviewed Publications</h2>
-<ol type="1">
-<li>Johnson, M., Dotse-Gborgbortsi, W., Ofosu, A., Utazi, C. E., McGrath, N., &amp; Wright, J. (2026). Child health service coverage estimation using routine health data from Ghana’s Eastern Region. Communications Medicine. <a href="https://doi.org/10.1038/s43856-026-01946-3" class="uri">https://doi.org/10.1038/s43856-026-01946-3</a></li>
-<li>Zhang, W. B., Fang, W., Chamberlain, H., Liu, H., Liang, L., Dotse-Gborgbortsi, W., … &amp; Sorichetta, A. (2026). A harmonised framework for assessing geographic healthcare access across the rural-urban continuum. Communications Health, 1(1), 18. <a href="https://doi.org/10.1038/s44528-026-00017-2" class="uri">https://doi.org/10.1038/s44528-026-00017-2</a></li>
-<li>Wong, K. L., Dotse-Gborgbortsi, W., Dwomoh, D., Avoka, C., Shetty, S., Sriram, P., … &amp; Banke-Thomas, A. (2026). Inequities in geographic access to emergency obstetric and newborn care in Greater Accra. Nature Cities, 1-11. <a href="https://doi.org/10.1038/s44284-026-00479-z" class="uri">https://doi.org/10.1038/s44284-026-00479-z</a></li>
-<li>Dotse-Gborgbortsi, W., &amp; Pai, M. (2026). Globalisation, rising authoritarianism, declining solidarity, and retreating multilateralism: A perfect storm for amplifying the risk of outbreaks. PLOS Global Public Health, 6(6), e0006783. <a href="https://doi.org/10.1371/journal.pgph.0006783" class="uri">https://doi.org/10.1371/journal.pgph.0006783</a></li>
-<li>Fang, W., Zhang, W. B., Woods, D., Chamberlain, H., Dotse-Gborgbortsi, W., Olowe, I. D., … &amp; Sorichetta, A. (2026). Urban–Rural Disparities in Geographic Healthcare Accessibility: A Comparative Study of Nigeria and Zambia: W. Fang et al.&nbsp;Journal of Urban Health, 1-12. <a href="https://doi.org/10.1007/s11524-026-01077-z" class="uri">https://doi.org/10.1007/s11524-026-01077-z</a></li>
-<li>Nsubuga, R., Kananura, R. M., Wasswa, R., Birabwa, C., Ogwal, J., Dotse-Gborgbortsi, W., … &amp; Nilsen, K. (2026). Maternal and child healthcare coverage and trends: refugee vs.&nbsp;non-refugee districts in Uganda. <em>Conflict and Health</em>, <em>20</em>(1), 42. <a href="https://doi.org/10.1186/s13031-026-00780-7" class="uri">https://doi.org/10.1186/s13031-026-00780-7</a></li>
-<li>Dotse-Gborgbortsi, W., Nilsen, K., Yankey, O., Ofosu, A., Ankomah, T., Tweneboah, E., … Wright, J. (2025). Spatio-temporal patterns of health service delivery and access to maternal, child, and outpatient healthcare in Volta region, Ghana: a repeated cross-sectional ecological study using health facility data. Global Health Action, 18(1). <a href="https://doi.org/10.1080/16549716.2025.2513861" class="uri">https://doi.org/10.1080/16549716.2025.2513861</a></li>
-<li>Amouzou, A., Barros, A. J. D., Requejo, J., Faye, C., Akseer, N., Bendavid, E., Blumenberg, C., Borghi, J., El Baz, S., Federspiel, F., Ferreira, L. Z., Hazel, E., Heft-Neal, S., Hellwig, F., Liu, L., Munos, M., Pitt, C., Shawar, Y. R., Shiffman, J., … Boerma, T. (2025). Tracking progress in reproductive, maternal, newborn, child and adolescent health and nutrition: the Countdown to 2030 for Women’s, Children’s and Adolescents’ Health report. The Lancet. <a href="https://doi.org/10.1016/S0140-6736(25)00151-5" class="uri">https://doi.org/10.1016/S0140-6736(25)00151-5</a></li>
-<li>Wariri, O., Dotse-Gborgbortsi, W., Agbla, S. C., Jah, H., Janneh, M., Cham, M., Jawara, B. F., Nayassi, M., Marema, M., Sanneh, S., Kampmann, B., Banke-Thomas, A., Lawn, J. E., &amp; Okomo, U. (2025). Beyond Proximity: Examining Stillbirth Rates in The Gambia and the Influence of Emergency Obstetric and Newborn Care Accessibility. BMJ Global Health. <a href="https://doi.org/10.1136/bmjgh-2024-016579" class="uri">https://doi.org/10.1136/bmjgh-2024-016579</a></li>
-<li>Sylla, E. H. M., Fall, N. A., Dotse-Gborgbortsi, W., Sandie, A. B., Gueye, B. S., Senghor, D. B., Cissé, B., Bocoum, F. Y., Sy, I. O., &amp; Faye, C. (2025). Beyond physical accessibility, bypassing health facilities offering cesarean section: a study based on women living in the slums of Dakar. BMJ Open, 15(3). <a href="https://doi.org/10.1136/bmjopen-2024-088606" class="uri">https://doi.org/10.1136/bmjopen-2024-088606</a></li>
-<li>Utazi, E., Olowe, I., Chan, H. M. T., Dotse-Gborgbortsi, W., Wagai, J., Umar, J., Etamesor, S., Atuhaire, B., Fafunmi, B., Crawford, J., Adeniran, A., &amp; Tatem, A. (2024). Geospatial variation in vaccination coverage and zero-dose 2 prevalence at the district, ward and health facility levels before 3 and after a measles vaccination campaign in Nigeria. Vaccines. <a href="https://doi.org/10.3390/vaccines12121299" class="uri">https://doi.org/10.3390/vaccines12121299</a></li>
-<li>Wariri, O., Utazi, C. E., Okomo, U., Dotse-Gborgbortsi, W., Sogur, M., Fofana, S., Murray, K. A., Grundy, C., &amp; Kampmann, B. (2024). Multi-level determinants of timely routine childhood vaccinations in The Gambia: Findings from a nationwide analysis. Vaccine, 43(2), Article 126500. <a href="https://doi.org/10.1016/j.vaccine.2024.126500" class="uri">https://doi.org/10.1016/j.vaccine.2024.126500</a></li>
-<li>Dwomoh, D., Iddi, S., Afagbedzi, S. K., Tejedor-Garavito, N., Dotse-Gborgbortsi, W., Wright, J., Tatem, A. J., &amp; Nilsen, K. (2023). Impact of urban slum residence on coverage of maternal, neonatal, and child health service indicators in the Greater Accra region of Ghana: an ecological time-series analysis, 2018–2021. Journal of Urban Health. Advance online publication. <a href="https://doi.org/10.1007/s11524-023-00812-0" class="uri">https://doi.org/10.1007/s11524-023-00812-0</a></li>
-<li>Gausman, J., Pingray, V., Adanu, R., Bandoh, D. A. B., Barrueta, M., Blossom, J., Chakraborty, S., Dotse-Gborgbortsi, W., Kenu, E., Khan, N., Langer, A., Nigri, C., Odikro, M. A., Ramesh, S., Saggurti, N., Vazquez, P., Williams, C. R., &amp; Jolivet, R. R. (2023). Validating indicators for monitoring availability and geographic distribution of emergency obstetric and newborn care (EmoNC) facilities: a study triangulating health system, facility, and geospatial data. PLoS ONE, 18(9 September), e0287904. Article e0287904. <a href="https://doi.org/10.1371/journal.pone.0287904" class="uri">https://doi.org/10.1371/journal.pone.0287904</a></li>
-<li>Nuhu, A. G. K., Dwomoh, D., Amuasi, S. A., Dotse-Gborgbortsi, W., Kubio, C., Apraku, E. A., Timbire, J. K., &amp; Nonvignon, J. (2023). Impact of mobile health on maternal and child health service utilization and continuum of care in Northern Ghana. Scientific Reports, 13(1), Article 3004. <a href="https://doi.org/10.1038/s41598-023-29683-w" class="uri">https://doi.org/10.1038/s41598-023-29683-w</a></li>
-<li>Dotse-Gborgbortsi, W., Tatem, A., Matthews, Z., Alegana, V. A., Ofosu, A., &amp; Wright, J. (2023). Quality of maternal healthcare and travel time influence birthing service utilisation in Ghanaian health facilities: a geographical analysis of routine health data. BMJ Open, 13(1), e066792. Article e066792. <a href="https://doi.org/10.1136/bmjopen-2022-066792" class="uri">https://doi.org/10.1136/bmjopen-2022-066792</a></li>
-<li>Dotse-Gborgbortsi, W., Dwomoh, D., Asamoah, M., Gyimah, F., Dzodzomenyo, M., Li, C., Akowuaha, G., Ofosu, A., &amp; Wright, J. (2022). Dam-mediated flooding impact on outpatient attendance and diarrhoea cases in northern Ghana: a mixed methods study. BMC Public Health, 22(1), Article 2108. <a href="https://doi.org/10.1186/s12889-022-14568-w" class="uri">https://doi.org/10.1186/s12889-022-14568-w</a></li>
-<li>Dwomoh, D., Amuasi, S. A., Amoah, E. M., Dotse-Gborgbortsi, W., &amp; Tetteh, J. (2022). Exposure to family planning messages and contraceptive use among women of reproductive age in Sub-Saharan Africa: a cross-sectional program impact evaluation study. Scientific Reports, 12, Article 18941. Advance online publication. <a href="https://doi.org/10.1038/s41598-022-22525-1" class="uri">https://doi.org/10.1038/s41598-022-22525-1</a></li>
-<li>Dotse-Gborgbortsi, W., Nilsen, K., Ofosu, A., Matthews, Z., Tejedor Garavito, N., Wright, J., &amp; Tatem, A. (2022). Distance is “a big problem”: a geographic analysis of reported and modelled proximity to maternal health services in Ghana. BMC Pregnancy and Childbirth, 22(1), Article 672. <a href="https://doi.org/10.1186/s12884-022-04998-0" class="uri">https://doi.org/10.1186/s12884-022-04998-0</a></li>
-<li>Dotse-Gborgbortsi, W., Tatem, A., Matthews, Z., Alegana, V. A., Ofosu, A., &amp; Wright, J. (2022). Delineating natural catchment health districts with routinely collected health data from women’s travel to give birth in Ghana. BMC Health Services Research, 22(1), 772. Article 772. <a href="https://doi.org/10.1186/s12913-022-08125-9" class="uri">https://doi.org/10.1186/s12913-022-08125-9</a></li>
-<li>Aheto, J., Pannell, O. B., Dotse-Gborgbortsi, W., Trimner, M. K., Tatem, A., Rhoda, D. A., Cutts, F. T., &amp; Utazi, C. (2022). Multilevel analysis of predictors of multiple indicators of childhood vaccination in Nigeria. PLoS ONE, 17(5 May), Article e0269066. <a href="https://doi.org/10.1371/journal.pone.0269066" class="uri">https://doi.org/10.1371/journal.pone.0269066</a></li>
-<li>Yu, W., Bain, R. E. S., Yu, J., Alegana, V. A., Dotse-Gborgbortsi, W., Lin, Y., &amp; Wright, J. (2021). Mapping access to basic hygiene services in low- and middle-income countries: a cross-sectional case study of geospatial disparities. Applied Geography, 135, Article 102549. <a href="https://doi.org/10.1016/j.apgeog.2021.102549" class="uri">https://doi.org/10.1016/j.apgeog.2021.102549</a></li>
-<li>Utazi, C. E., Nilsen, K., Pannell, O., Dotse-Gborgbortsi, W., &amp; Tatem, A. J. (2021). District‐level estimation of vaccination coverage: discrete vs continuous spatial models. Statistics in Medicine, 40(9), 2197-2211. <a href="https://doi.org/10.1002/sim.8897" class="uri">https://doi.org/10.1002/sim.8897</a></li>
-<li>Simo, L. P., Agbor, V. N., Temgoua, F. Z., Fozeu, L. C. F., Bonghaseh, D. T., Mbonda, A. G. N., Yurika, R., Dotse-Gborgbortsi, W., &amp; Mbanya, D. (2021). Prevalence and factors associated with overweight and obesity in selected health areas in a rural health district in Cameroon: a cross-sectional analysis. BMC Public Health, 21(1), Article 475. <a href="https://doi.org/10.1186/s12889-021-10403-w" class="uri">https://doi.org/10.1186/s12889-021-10403-w</a></li>
-<li>Rice, B. L., Annapragada, A., Baker, R. E., Bruijning, M., Dotse-Gborgbortsi, W., Mensah, K., Miller, I. F., Motaze, N. V., Raherinandrasana, A., Rajeev, M., Rakotonirina, J., Ramiadantsoa, T., Rasambainarivo, F., Yu, W., Grenfell, B. T., Tatem, A., &amp; Metcalf, C. J. E. (2021). Variation in SARS-CoV-2 outbreaks across sub-Saharan Africa. Nature Medicine, 27(3), 447-453. <a href="https://doi.org/10.1038/s41591-021-01234-8" class="uri">https://doi.org/10.1038/s41591-021-01234-8</a></li>
-<li>Wariri, O., Onuwabuchi, E., Korem Alhassan, J. A., Dase, E., Jalo, I., Laima, C. H., Farouk, H. U., El-Nafaty, A. U., Okomo, U., &amp; Dotse-Gborgbortsi, W. (2021). The influence of travel time to health facilities on stillbirths: a geospatial case-control analysis of facility-based data in Gombe, Nigeria. PLoS ONE, 16(1 January), Article e0245297. <a href="https://doi.org/10.1371/journal.pone.0245297" class="uri">https://doi.org/10.1371/journal.pone.0245297</a></li>
-<li>Head, M., Dotse-Gborgbortsi, W., Boateng, L., &amp; Lartey, M. (2020). Healthcare-seeking behaviour in reporting of scabies and skin infections in Ghana – a review of reported cases. Transactions of the Royal Society of Tropical Medicine and Hygiene, 114(11), 830-837. <a href="https://doi.org/10.1093/trstmh/traa071" class="uri">https://doi.org/10.1093/trstmh/traa071</a></li>
-<li>Dotse-Gborgbortsi, W., Tatem, A. J., Alegana, V., Utazi, C. E., Ruktanonchai, C. W., &amp; Wright, J. (2020). Spatial inequalities in skilled attendance at birth in Ghana: a multilevel analysis integrating health facility databases with household survey data. Tropical Medicine &amp; International Health, 25(9), 1044-1054. <a href="https://doi.org/10.1111/tmi.13460" class="uri">https://doi.org/10.1111/tmi.13460</a></li>
-<li>Semey, M., Dotse-Gborgbortsi, W., Dzodzomenyo, M., &amp; Wright, J. (2020). Characteristics of packaged water production facilities in Greater Accra, Ghana: implications for water safety and associated environmental impacts. Journal of Water Sanitation and Hygiene for Development, 10(1), 146-156. <a href="https://doi.org/10.2166/washdev.2020.110" class="uri">https://doi.org/10.2166/washdev.2020.110</a></li>
-<li>Dotse-Gborgbortsi, W., Dwomoh, D., Alegana, V., Hill, A. G., Tatem, A., &amp; Wright, J. (2020). The influence of distance and quality on utilisation of birthing services at health facilities in Eastern Region, Ghana. BMJ Global Health, 4(e002020), Article e002020. <a href="https://doi.org/10.1136/bmjgh-2019-002020" class="uri">https://doi.org/10.1136/bmjgh-2019-002020</a></li>
-<li>Dzodzomenyo, M., Fink, G., Hill, A., Dotse-Gborgbortsi, W., Wardrop, N., Aryeetey, G., Coleman, N., &amp; Wright, J. (2018). Sachet water and product registration: a cross-sectional study in Accra, Ghana. Journal of Water and Health, 16(2). Advance online publication. <a href="https://doi.org/10.2166/wh.2018.055" class="uri">https://doi.org/10.2166/wh.2018.055</a></li>
-<li>Dotse-Gborgbortsi, W., Wardrop, N., Adewole, A. P., Thomas-Possee, M. L. H., &amp; Wright, J. (2018). A cross-sectional ecological analysis of international and sub-national health inequalities in commercial geospatial resource availability. International Journal of Health Geographics, 17(14). <a href="https://doi.org/10.1186/s12942-018-0134-z" class="uri">https://doi.org/10.1186/s12942-018-0134-z</a></li>
-<li>Dzodzomenyo, M., Dotse-Gborgbortsi, W., Lapworth, D., Wardrop, N., &amp; Wright, J. (2017). Geographic distribution of registered packaged water production in Ghana: implications for piped supplies, groundwater management and product transportation. Water, 9(142). Advance online publication. <a href="https://doi.org/10.3390/w9020142" class="uri">https://doi.org/10.3390/w9020142</a></li>
-<li>Bosomprah, S., Dotse-Gborgbortsi, W., Aboagye, P., &amp; Matthews, Z. (2016). Use of a spatial scan statistic to identify clusters of births occurring outside Ghanaian health facilities for targeted intervention. International Journal of Gynecology and Obstetrics, 135(2), 221-224. Advance online publication. <a href="https://doi.org/10.1016/j.ijgo.2016.04.016" class="uri">https://doi.org/10.1016/j.ijgo.2016.04.016</a></li>
-<li>Bosomprah, S., Tatem, A. J., Dotse-Gborgbortsi, W., Aboagye, P., &amp; Matthews, Z. (2016). Spatial distribution of emergency obstetric and newborn care services in Ghana: using the evidence to plan interventions. International Journal of Gynecology &amp; Obstetrics, 132(1), 130-134. <a href="https://doi.org/10.1016/j.ijgo.2015.11.004" class="uri">https://doi.org/10.1016/j.ijgo.2015.11.004</a></li>
+<section id="collaborations-and-impact" class="level2">
+<h2 class="anchored" data-anchor-id="collaborations-and-impact">Collaborations and impact</h2>
+<p>I regularly collaborate with government health agencies, NGOs, and international partners to turn research into real-world solutions. My work has informed health strategies across low- and middle-income countries, particularly in sub-Saharan Africa. My PhD, funded by the ESRC, was <a href="https://www.ukri.org/who-we-are/how-we-are-doing/research-outcomes-and-impact/esrc/improving-access-to-pregnancy-and-birth-services-in-ghana/">recognised nationally</a> and <a href="https://southcoastdtp.ac.uk/news-post/the-scdtp-is-delighted-to-announce-the-winners-of-the-2020-21-and-2021-22-scdtp-impact-prizes-congratulations-to-all-winners/">locally</a> for its impact on evidence-based policymaking and capacity development in Ghana.</p>
+<p>The ESRC produced this video about my research impact in Ghana.</p>
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/00Z3QJWFmho" title="ESRC video: improving access to pregnancy and birth services in Ghana" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="publications" class="level2">
+<h2 class="anchored" data-anchor-id="publications">Publications</h2>
+<div class="filters" role="group" aria-label="Filter by theme">
+  <button type="button" data-f="all" aria-pressed="true">All</button>
+  <button type="button" data-f="access" aria-pressed="false">Access</button>
+  <button type="button" data-f="maternal" aria-pressed="false">Maternal health</button>
+  <button type="button" data-f="climate" aria-pressed="false">Climate</button>
+  <button type="button" data-f="routine" aria-pressed="false">Routine data</button>
+</div>
+<div id="listing-pubs" class="quarto-listing quarto-listing-container-custom">
+<div class="pubs">
+<section class="pub-group">
+<div class="pub-year">
+2026
+</div>
+<ol class="pub-list">
+<li class="pub" data-themes="maternal routine">
+<div class="pub-title">
+<a href="https://doi.org/10.1038/s43856-026-01946-3">Child health service coverage estimation using routine health data from Ghana’s Eastern Region</a>
+</div>
+<div class="pub-authors">
+Johnson, M., <strong>Dotse-Gborgbortsi, W.</strong>, Ofosu, A., Utazi, C. E., McGrath, N., &amp; Wright, J.
+</div>
+<div class="pub-meta">
+<em>Communications Medicine</em><span class="pub-tag">Maternal health</span><span class="pub-tag">Routine data</span>
+</div>
+</li>
+<li class="pub" data-themes="access">
+<div class="pub-title">
+<a href="https://doi.org/10.1038/s44528-026-00017-2">A harmonised framework for assessing geographic healthcare access across the rural-urban continuum</a>
+</div>
+<div class="pub-authors">
+Zhang, W. B., Fang, W., Chamberlain, H., Liu, H., Liang, L., <strong>Dotse-Gborgbortsi, W.</strong>, … &amp; Sorichetta, A.
+</div>
+<div class="pub-meta">
+<em>Communications Health</em><span class="pub-tag">Access</span>
+</div>
+</li>
+<li class="pub" data-themes="access maternal">
+<div class="pub-title">
+<a href="https://doi.org/10.1038/s44284-026-00479-z">Inequities in geographic access to emergency obstetric and newborn care in Greater Accra</a>
+</div>
+<div class="pub-authors">
+Wong, K. L., <strong>Dotse-Gborgbortsi, W.</strong>, Dwomoh, D., Avoka, C., Shetty, S., Sriram, P., … &amp; Banke-Thomas, A.
+</div>
+<div class="pub-meta">
+<em>Nature Cities</em><span class="pub-tag">Access</span><span class="pub-tag">Maternal health</span>
+</div>
+</li>
+<li class="pub" data-themes="">
+<div class="pub-title">
+<a href="https://doi.org/10.1371/journal.pgph.0006783">Globalisation, rising authoritarianism, declining solidarity, and retreating multilateralism: A perfect storm for amplifying the risk of outbreaks</a>
+</div>
+<div class="pub-authors">
+<strong>Dotse-Gborgbortsi, W.</strong>, &amp; Pai, M.
+</div>
+<div class="pub-meta">
+<em>PLOS Global Public Health</em>
+</div>
+</li>
+<li class="pub" data-themes="access">
+<div class="pub-title">
+<a href="https://doi.org/10.1007/s11524-026-01077-z">Urban–Rural Disparities in Geographic Healthcare Accessibility: A Comparative Study of Nigeria and Zambia</a>
+</div>
+<div class="pub-authors">
+Fang, W., Zhang, W. B., Woods, D., Chamberlain, H., <strong>Dotse-Gborgbortsi, W.</strong>, Olowe, I. D., … &amp; Sorichetta, A.
+</div>
+<div class="pub-meta">
+<em>Journal of Urban Health</em><span class="pub-tag">Access</span>
+</div>
+</li>
+<li class="pub" data-themes="maternal">
+<div class="pub-title">
+<a href="https://doi.org/10.1186/s13031-026-00780-7">Maternal and child healthcare coverage and trends: refugee vs non-refugee districts in Uganda</a>
+</div>
+<div class="pub-authors">
+Nsubuga, R., Kananura, R. M., Wasswa, R., Birabwa, C., Ogwal, J., <strong>Dotse-Gborgbortsi, W.</strong>, … &amp; Nilsen, K.
+</div>
+<div class="pub-meta">
+<em>Conflict and Health</em><span class="pub-tag">Maternal health</span>
+</div>
+</li>
 </ol>
 </section>
-<section id="global-report" class="level2">
-<h2 class="anchored" data-anchor-id="global-report">Global Report</h2>
-<p>1. United Nations Population Fund, International Confederation of Midwives, World Health Organization. State of the world’s midwifery 2021. New York: United Nations Population Fund; 2021. [Technical Contributor]</p>
+<section class="pub-group">
+<div class="pub-year">
+2025
+</div>
+<ol class="pub-list">
+<li class="pub" data-themes="access maternal routine">
+<div class="pub-title">
+<a href="https://doi.org/10.1080/16549716.2025.2513861">Spatio-temporal patterns of health service delivery and access to maternal, child, and outpatient healthcare in Volta region, Ghana: a repeated cross-sectional ecological study using health facility data</a>
+</div>
+<div class="pub-authors">
+<strong>Dotse-Gborgbortsi, W.</strong>, Nilsen, K., Yankey, O., Ofosu, A., Ankomah, T., Tweneboah, E., … Wright, J.
+</div>
+<div class="pub-meta">
+<em>Global Health Action</em><span class="pub-tag">Access</span><span class="pub-tag">Maternal health</span><span class="pub-tag">Routine data</span>
+</div>
+</li>
+<li class="pub" data-themes="maternal">
+<div class="pub-title">
+<a href="https://doi.org/10.1016/S0140-6736(25)00151-5">Tracking progress in reproductive, maternal, newborn, child and adolescent health and nutrition: the Countdown to 2030 for Women’s, Children’s and Adolescents’ Health report</a>
+</div>
+<div class="pub-authors">
+Amouzou, A., Barros, A. J. D., Requejo, J., Faye, C., Akseer, N., Bendavid, E., Blumenberg, C., Borghi, J., El Baz, S., Federspiel, F., Ferreira, L. Z., Hazel, E., Heft-Neal, S., Hellwig, F., Liu, L., Munos, M., Pitt, C., Shawar, Y. R., Shiffman, J., … Boerma, T.
+</div>
+<div class="pub-meta">
+<em>The Lancet</em><span class="pub-tag">Maternal health</span>
+</div>
+</li>
+<li class="pub" data-themes="access maternal">
+<div class="pub-title">
+<a href="https://doi.org/10.1136/bmjgh-2024-016579">Beyond Proximity: Examining Stillbirth Rates in The Gambia and the Influence of Emergency Obstetric and Newborn Care Accessibility</a>
+</div>
+<div class="pub-authors">
+Wariri, O., <strong>Dotse-Gborgbortsi, W.</strong>, Agbla, S. C., Jah, H., Janneh, M., Cham, M., Jawara, B. F., Nayassi, M., Marema, M., Sanneh, S., Kampmann, B., Banke-Thomas, A., Lawn, J. E., &amp; Okomo, U.
+</div>
+<div class="pub-meta">
+<em>BMJ Global Health</em><span class="pub-tag">Access</span><span class="pub-tag">Maternal health</span>
+</div>
+</li>
+<li class="pub" data-themes="access maternal">
+<div class="pub-title">
+<a href="https://doi.org/10.1136/bmjopen-2024-088606">Beyond physical accessibility, bypassing health facilities offering cesarean section: a study based on women living in the slums of Dakar</a>
+</div>
+<div class="pub-authors">
+Sylla, E. H. M., Fall, N. A., <strong>Dotse-Gborgbortsi, W.</strong>, Sandie, A. B., Gueye, B. S., Senghor, D. B., Cissé, B., Bocoum, F. Y., Sy, I. O., &amp; Faye, C.
+</div>
+<div class="pub-meta">
+<em>BMJ Open</em><span class="pub-tag">Access</span><span class="pub-tag">Maternal health</span>
+</div>
+</li>
+</ol>
+</section>
+<section class="pub-group">
+<div class="pub-year">
+2024
+</div>
+<ol class="pub-list">
+<li class="pub" data-themes="maternal">
+<div class="pub-title">
+<a href="https://doi.org/10.3390/vaccines12121299">Geospatial variation in vaccination coverage and zero-dose prevalence at the district, ward and health facility levels before and after a measles vaccination campaign in Nigeria</a>
+</div>
+<div class="pub-authors">
+Utazi, E., Olowe, I., Chan, H. M. T., <strong>Dotse-Gborgbortsi, W.</strong>, Wagai, J., Umar, J., Etamesor, S., Atuhaire, B., Fafunmi, B., Crawford, J., Adeniran, A., &amp; Tatem, A.
+</div>
+<div class="pub-meta">
+<em>Vaccines</em><span class="pub-tag">Maternal health</span>
+</div>
+</li>
+<li class="pub" data-themes="maternal">
+<div class="pub-title">
+<a href="https://doi.org/10.1016/j.vaccine.2024.126500">Multi-level determinants of timely routine childhood vaccinations in The Gambia: Findings from a nationwide analysis</a>
+</div>
+<div class="pub-authors">
+Wariri, O., Utazi, C. E., Okomo, U., <strong>Dotse-Gborgbortsi, W.</strong>, Sogur, M., Fofana, S., Murray, K. A., Grundy, C., &amp; Kampmann, B.
+</div>
+<div class="pub-meta">
+<em>Vaccine</em><span class="pub-tag">Maternal health</span>
+</div>
+</li>
+</ol>
+</section>
+<section class="pub-group">
+<div class="pub-year">
+2023
+</div>
+<ol class="pub-list">
+<li class="pub" data-themes="maternal">
+<div class="pub-title">
+<a href="https://doi.org/10.1007/s11524-023-00812-0">Impact of urban slum residence on coverage of maternal, neonatal, and child health service indicators in the Greater Accra region of Ghana: an ecological time-series analysis, 2018–2021</a>
+</div>
+<div class="pub-authors">
+Dwomoh, D., Iddi, S., Afagbedzi, S. K., Tejedor-Garavito, N., <strong>Dotse-Gborgbortsi, W.</strong>, Wright, J., Tatem, A. J., &amp; Nilsen, K.
+</div>
+<div class="pub-meta">
+<em>Journal of Urban Health</em><span class="pub-tag">Maternal health</span>
+</div>
+</li>
+<li class="pub" data-themes="access maternal">
+<div class="pub-title">
+<a href="https://doi.org/10.1371/journal.pone.0287904">Validating indicators for monitoring availability and geographic distribution of emergency obstetric and newborn care (EmoNC) facilities: a study triangulating health system, facility, and geospatial data</a>
+</div>
+<div class="pub-authors">
+Gausman, J., Pingray, V., Adanu, R., Bandoh, D. A. B., Barrueta, M., Blossom, J., Chakraborty, S., <strong>Dotse-Gborgbortsi, W.</strong>, Kenu, E., Khan, N., Langer, A., Nigri, C., Odikro, M. A., Ramesh, S., Saggurti, N., Vazquez, P., Williams, C. R., &amp; Jolivet, R. R.
+</div>
+<div class="pub-meta">
+<em>PLoS ONE</em><span class="pub-tag">Access</span><span class="pub-tag">Maternal health</span>
+</div>
+</li>
+<li class="pub" data-themes="maternal">
+<div class="pub-title">
+<a href="https://doi.org/10.1038/s41598-023-29683-w">Impact of mobile health on maternal and child health service utilization and continuum of care in Northern Ghana</a>
+</div>
+<div class="pub-authors">
+Nuhu, A. G. K., Dwomoh, D., Amuasi, S. A., <strong>Dotse-Gborgbortsi, W.</strong>, Kubio, C., Apraku, E. A., Timbire, J. K., &amp; Nonvignon, J.
+</div>
+<div class="pub-meta">
+<em>Scientific Reports</em><span class="pub-tag">Maternal health</span>
+</div>
+</li>
+<li class="pub" data-themes="access maternal routine">
+<div class="pub-title">
+<a href="https://doi.org/10.1136/bmjopen-2022-066792">Quality of maternal healthcare and travel time influence birthing service utilisation in Ghanaian health facilities: a geographical analysis of routine health data</a>
+</div>
+<div class="pub-authors">
+<strong>Dotse-Gborgbortsi, W.</strong>, Tatem, A., Matthews, Z., Alegana, V. A., Ofosu, A., &amp; Wright, J.
+</div>
+<div class="pub-meta">
+<em>BMJ Open</em><span class="pub-tag">Access</span><span class="pub-tag">Maternal health</span><span class="pub-tag">Routine data</span>
+</div>
+</li>
+</ol>
+</section>
+<section class="pub-group">
+<div class="pub-year">
+2022
+</div>
+<ol class="pub-list">
+<li class="pub" data-themes="climate">
+<div class="pub-title">
+<a href="https://doi.org/10.1186/s12889-022-14568-w">Dam-mediated flooding impact on outpatient attendance and diarrhoea cases in northern Ghana: a mixed methods study</a>
+</div>
+<div class="pub-authors">
+<strong>Dotse-Gborgbortsi, W.</strong>, Dwomoh, D., Asamoah, M., Gyimah, F., Dzodzomenyo, M., Li, C., Akowuaha, G., Ofosu, A., &amp; Wright, J.
+</div>
+<div class="pub-meta">
+<em>BMC Public Health</em><span class="pub-tag">Climate</span>
+</div>
+</li>
+<li class="pub" data-themes="maternal">
+<div class="pub-title">
+<a href="https://doi.org/10.1038/s41598-022-22525-1">Exposure to family planning messages and contraceptive use among women of reproductive age in Sub-Saharan Africa: a cross-sectional program impact evaluation study</a>
+</div>
+<div class="pub-authors">
+Dwomoh, D., Amuasi, S. A., Amoah, E. M., <strong>Dotse-Gborgbortsi, W.</strong>, &amp; Tetteh, J.
+</div>
+<div class="pub-meta">
+<em>Scientific Reports</em><span class="pub-tag">Maternal health</span>
+</div>
+</li>
+<li class="pub" data-themes="access maternal">
+<div class="pub-title">
+<a href="https://doi.org/10.1186/s12884-022-04998-0">Distance is “a big problem”: a geographic analysis of reported and modelled proximity to maternal health services in Ghana</a>
+</div>
+<div class="pub-authors">
+<strong>Dotse-Gborgbortsi, W.</strong>, Nilsen, K., Ofosu, A., Matthews, Z., Tejedor Garavito, N., Wright, J., &amp; Tatem, A.
+</div>
+<div class="pub-meta">
+<em>BMC Pregnancy and Childbirth</em><span class="pub-tag">Access</span><span class="pub-tag">Maternal health</span>
+</div>
+</li>
+<li class="pub" data-themes="access maternal routine">
+<div class="pub-title">
+<a href="https://doi.org/10.1186/s12913-022-08125-9">Delineating natural catchment health districts with routinely collected health data from women’s travel to give birth in Ghana</a>
+</div>
+<div class="pub-authors">
+<strong>Dotse-Gborgbortsi, W.</strong>, Tatem, A., Matthews, Z., Alegana, V. A., Ofosu, A., &amp; Wright, J.
+</div>
+<div class="pub-meta">
+<em>BMC Health Services Research</em><span class="pub-tag">Access</span><span class="pub-tag">Maternal health</span><span class="pub-tag">Routine data</span>
+</div>
+</li>
+<li class="pub" data-themes="maternal">
+<div class="pub-title">
+<a href="https://doi.org/10.1371/journal.pone.0269066">Multilevel analysis of predictors of multiple indicators of childhood vaccination in Nigeria</a>
+</div>
+<div class="pub-authors">
+Aheto, J., Pannell, O. B., <strong>Dotse-Gborgbortsi, W.</strong>, Trimner, M. K., Tatem, A., Rhoda, D. A., Cutts, F. T., &amp; Utazi, C.
+</div>
+<div class="pub-meta">
+<em>PLoS ONE</em><span class="pub-tag">Maternal health</span>
+</div>
+</li>
+</ol>
+</section>
+<section class="pub-group">
+<div class="pub-year">
+2021
+</div>
+<ol class="pub-list">
+<li class="pub" data-themes="access">
+<div class="pub-title">
+<a href="https://doi.org/10.1016/j.apgeog.2021.102549">Mapping access to basic hygiene services in low- and middle-income countries: a cross-sectional case study of geospatial disparities</a>
+</div>
+<div class="pub-authors">
+Yu, W., Bain, R. E. S., Yu, J., Alegana, V. A., <strong>Dotse-Gborgbortsi, W.</strong>, Lin, Y., &amp; Wright, J.
+</div>
+<div class="pub-meta">
+<em>Applied Geography</em><span class="pub-tag">Access</span>
+</div>
+</li>
+<li class="pub" data-themes="maternal">
+<div class="pub-title">
+<a href="https://doi.org/10.1002/sim.8897">District‐level estimation of vaccination coverage: discrete vs continuous spatial models</a>
+</div>
+<div class="pub-authors">
+Utazi, C. E., Nilsen, K., Pannell, O., <strong>Dotse-Gborgbortsi, W.</strong>, &amp; Tatem, A. J.
+</div>
+<div class="pub-meta">
+<em>Statistics in Medicine</em><span class="pub-tag">Maternal health</span>
+</div>
+</li>
+<li class="pub" data-themes="">
+<div class="pub-title">
+<a href="https://doi.org/10.1186/s12889-021-10403-w">Prevalence and factors associated with overweight and obesity in selected health areas in a rural health district in Cameroon: a cross-sectional analysis</a>
+</div>
+<div class="pub-authors">
+Simo, L. P., Agbor, V. N., Temgoua, F. Z., Fozeu, L. C. F., Bonghaseh, D. T., Mbonda, A. G. N., Yurika, R., <strong>Dotse-Gborgbortsi, W.</strong>, &amp; Mbanya, D.
+</div>
+<div class="pub-meta">
+<em>BMC Public Health</em>
+</div>
+</li>
+<li class="pub" data-themes="">
+<div class="pub-title">
+<a href="https://doi.org/10.1038/s41591-021-01234-8">Variation in SARS-CoV-2 outbreaks across sub-Saharan Africa</a>
+</div>
+<div class="pub-authors">
+Rice, B. L., Annapragada, A., Baker, R. E., Bruijning, M., <strong>Dotse-Gborgbortsi, W.</strong>, Mensah, K., Miller, I. F., Motaze, N. V., Raherinandrasana, A., Rajeev, M., Rakotonirina, J., Ramiadantsoa, T., Rasambainarivo, F., Yu, W., Grenfell, B. T., Tatem, A., &amp; Metcalf, C. J. E.
+</div>
+<div class="pub-meta">
+<em>Nature Medicine</em>
+</div>
+</li>
+<li class="pub" data-themes="access maternal routine">
+<div class="pub-title">
+<a href="https://doi.org/10.1371/journal.pone.0245297">The influence of travel time to health facilities on stillbirths: a geospatial case-control analysis of facility-based data in Gombe, Nigeria</a>
+</div>
+<div class="pub-authors">
+Wariri, O., Onuwabuchi, E., Korem Alhassan, J. A., Dase, E., Jalo, I., Laima, C. H., Farouk, H. U., El-Nafaty, A. U., Okomo, U., &amp; <strong>Dotse-Gborgbortsi, W.</strong>
+</div>
+<div class="pub-meta">
+<em>PLoS ONE</em><span class="pub-tag">Access</span><span class="pub-tag">Maternal health</span><span class="pub-tag">Routine data</span>
+</div>
+</li>
+<li class="pub" data-themes="maternal">
+<div class="pub-title">
+State of the world’s midwifery 2021
+</div>
+<div class="pub-authors">
+United Nations Population Fund, International Confederation of Midwives, World Health Organization
+</div>
+<div class="pub-meta">
+<em>UNFPA global report (technical contributor)</em><span class="pub-tag">Maternal health</span>
+</div>
+</li>
+</ol>
+</section>
+<section class="pub-group">
+<div class="pub-year">
+2020
+</div>
+<ol class="pub-list">
+<li class="pub" data-themes="routine">
+<div class="pub-title">
+<a href="https://doi.org/10.1093/trstmh/traa071">Healthcare-seeking behaviour in reporting of scabies and skin infections in Ghana – a review of reported cases</a>
+</div>
+<div class="pub-authors">
+Head, M., <strong>Dotse-Gborgbortsi, W.</strong>, Boateng, L., &amp; Lartey, M.
+</div>
+<div class="pub-meta">
+<em>Transactions of the Royal Society of Tropical Medicine and Hygiene</em><span class="pub-tag">Routine data</span>
+</div>
+</li>
+<li class="pub" data-themes="access maternal">
+<div class="pub-title">
+<a href="https://doi.org/10.1111/tmi.13460">Spatial inequalities in skilled attendance at birth in Ghana: a multilevel analysis integrating health facility databases with household survey data</a>
+</div>
+<div class="pub-authors">
+<strong>Dotse-Gborgbortsi, W.</strong>, Tatem, A. J., Alegana, V., Utazi, C. E., Ruktanonchai, C. W., &amp; Wright, J.
+</div>
+<div class="pub-meta">
+<em>Tropical Medicine &amp; International Health</em><span class="pub-tag">Access</span><span class="pub-tag">Maternal health</span>
+</div>
+</li>
+<li class="pub" data-themes="">
+<div class="pub-title">
+<a href="https://doi.org/10.2166/washdev.2020.110">Characteristics of packaged water production facilities in Greater Accra, Ghana: implications for water safety and associated environmental impacts</a>
+</div>
+<div class="pub-authors">
+Semey, M., <strong>Dotse-Gborgbortsi, W.</strong>, Dzodzomenyo, M., &amp; Wright, J.
+</div>
+<div class="pub-meta">
+<em>Journal of Water Sanitation and Hygiene for Development</em>
+</div>
+</li>
+<li class="pub" data-themes="access maternal">
+<div class="pub-title">
+<a href="https://doi.org/10.1136/bmjgh-2019-002020">The influence of distance and quality on utilisation of birthing services at health facilities in Eastern Region, Ghana</a>
+</div>
+<div class="pub-authors">
+<strong>Dotse-Gborgbortsi, W.</strong>, Dwomoh, D., Alegana, V., Hill, A. G., Tatem, A., &amp; Wright, J.
+</div>
+<div class="pub-meta">
+<em>BMJ Global Health</em><span class="pub-tag">Access</span><span class="pub-tag">Maternal health</span>
+</div>
+</li>
+</ol>
+</section>
+<section class="pub-group">
+<div class="pub-year">
+2018
+</div>
+<ol class="pub-list">
+<li class="pub" data-themes="">
+<div class="pub-title">
+<a href="https://doi.org/10.2166/wh.2018.055">Sachet water and product registration: a cross-sectional study in Accra, Ghana</a>
+</div>
+<div class="pub-authors">
+Dzodzomenyo, M., Fink, G., Hill, A., <strong>Dotse-Gborgbortsi, W.</strong>, Wardrop, N., Aryeetey, G., Coleman, N., &amp; Wright, J.
+</div>
+<div class="pub-meta">
+<em>Journal of Water and Health</em>
+</div>
+</li>
+<li class="pub" data-themes="">
+<div class="pub-title">
+<a href="https://doi.org/10.1186/s12942-018-0134-z">A cross-sectional ecological analysis of international and sub-national health inequalities in commercial geospatial resource availability</a>
+</div>
+<div class="pub-authors">
+<strong>Dotse-Gborgbortsi, W.</strong>, Wardrop, N., Adewole, A. P., Thomas-Possee, M. L. H., &amp; Wright, J.
+</div>
+<div class="pub-meta">
+<em>International Journal of Health Geographics</em>
+</div>
+</li>
+</ol>
+</section>
+<section class="pub-group">
+<div class="pub-year">
+2017
+</div>
+<ol class="pub-list">
+<li class="pub" data-themes="">
+<div class="pub-title">
+<a href="https://doi.org/10.3390/w9020142">Geographic distribution of registered packaged water production in Ghana: implications for piped supplies, groundwater management and product transportation</a>
+</div>
+<div class="pub-authors">
+Dzodzomenyo, M., <strong>Dotse-Gborgbortsi, W.</strong>, Lapworth, D., Wardrop, N., &amp; Wright, J.
+</div>
+<div class="pub-meta">
+<em>Water</em>
+</div>
+</li>
+</ol>
+</section>
+<section class="pub-group">
+<div class="pub-year">
+2016
+</div>
+<ol class="pub-list">
+<li class="pub" data-themes="maternal">
+<div class="pub-title">
+<a href="https://doi.org/10.1016/j.ijgo.2016.04.016">Use of a spatial scan statistic to identify clusters of births occurring outside Ghanaian health facilities for targeted intervention</a>
+</div>
+<div class="pub-authors">
+Bosomprah, S., <strong>Dotse-Gborgbortsi, W.</strong>, Aboagye, P., &amp; Matthews, Z.
+</div>
+<div class="pub-meta">
+<em>International Journal of Gynecology and Obstetrics</em><span class="pub-tag">Maternal health</span>
+</div>
+</li>
+<li class="pub" data-themes="access maternal">
+<div class="pub-title">
+<a href="https://doi.org/10.1016/j.ijgo.2015.11.004">Spatial distribution of emergency obstetric and newborn care services in Ghana: using the evidence to plan interventions</a>
+</div>
+<div class="pub-authors">
+Bosomprah, S., Tatem, A. J., <strong>Dotse-Gborgbortsi, W.</strong>, Aboagye, P., &amp; Matthews, Z.
+</div>
+<div class="pub-meta">
+<em>International Journal of Gynecology &amp; Obstetrics</em><span class="pub-tag">Access</span><span class="pub-tag">Maternal health</span>
+</div>
+</li>
+</ol>
+</section>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+<nav id="pubs-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div>
+<p><span class="more"><a href="https://scholar.google.com/scholar?q=Dotse-Gborgbortsi">Full list on Google Scholar →</a></span></p>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const buttons = document.querySelectorAll(".filters button");
+  const pubs = document.querySelectorAll(".pub");
+  buttons.forEach((b) => {
+    const f = b.dataset.f;
+    const n = f === "all" ? pubs.length : [...pubs].filter((p) => p.dataset.themes.split(" ").includes(f)).length;
+    b.insertAdjacentHTML("beforeend", ` <span class="n">${n}</span>`);
+    b.addEventListener("click", () => {
+      buttons.forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+      pubs.forEach((p) => { p.hidden = f !== "all" && !p.dataset.themes.split(" ").includes(f); });
+      document.querySelectorAll(".pub-group").forEach((g) => { g.hidden = !g.querySelector(".pub:not([hidden])"); });
+    });
+  });
+});
+</script>
+
 
 
 </section>
@@ -294,7 +857,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/winfredotse\.com");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -622,6 +1185,19 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 Winfred Dotse-Gborgbortsi</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Department of Geography, University College London</p>
+</div>
+  </div>
+</footer>
 
 
 
